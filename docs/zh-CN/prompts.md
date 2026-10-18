@@ -2,15 +2,15 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 11 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 14 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (4)
+- [3D 场景](#3d-scene) (6)
 - [动效](#motion-graphics) (1)
 - [游戏](#game) (2)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (2)
+- [测试对比](#comparison) (3)
 
 <a id="3d-scene"></a>
 
@@ -77,6 +77,42 @@ deepseek-v4.1-flash-1017 をおためし中
 添付画像を参考にBlenderで3Dモデルを作成して
 
 ←完成　添付画像→
+```
+
+### Three.js构建的暴风雨中的灯塔
+
+[@TokenGremlin](https://x.com/TokenGremlin/status/2111581758575550546) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111581758575550546/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111581758575550546?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4.1 Flash-1017 built a lighthouse in a storm.
+
+One prompt, DeepThink on, Three.js in a single HTML file.
+
+> Waves with foam on the crests
+> Heavy rain and lightning flashes
+> Lighthouse beam sweeping through the fog
+> Drone camera, zero input
+
+I feel like this model was heavily inspired by GPT-6 Sol.
+```
+
+### Three.js模拟椋鸟群与猎鹰互动
+
+[@TokenGremlin](https://x.com/TokenGremlin/status/2111584413280792581) · 0:28 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111584413280792581/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111584413280792581?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4.1 Flash-1017, DeepThink on, Three.js.
+
+5,000 starlings and a hawk, all from one prompt.
+
+> Boids with a spatial hash grid
+> The flock folds, splits and merges on its own
+> The hawk dives into it, or you steer it with your mouse
+> The lake reflects the whole flock
+
+The sun glow is way too blown out, but the flock motion is legit.
+
+(Extremely laggy because I'm running this on my humble 2019 Acer Nitro 5.)
 ```
 
 <a id="motion-graphics"></a>
@@ -212,4 +248,18 @@ four flash models, one brief: a first-person parkour run in a single html file, 
 - qwen3.8 flash – $0.227, 2h 04m
 
 which one would you play?
+```
+
+### 电动机 3D 动画原理解释对比
+
+[@rubenssoto_ai](https://x.com/rubenssoto_ai/status/2111513156589629941) · 0:40 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111513156589629941/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111513156589629941?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Opus 5.5 vs DeepSeek V4.1 Flash 1017
+
+Same prompt.  Same task. 
+
+Build a cinematic 3D animation explaining how a Tesla-style electric motor works.
+
+Is Opus in trouble?
 ```
