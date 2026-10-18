@@ -26,7 +26,7 @@ DeepSeek-V4.1-Flash-1017 于 2026 年 10 月 17 日以同一个名称替换了 9
 能说明什么，不能说明什么：
 
 - **这些多半还不是 1017 的数字。** 两行 DeepSeek 的智能指数和单任务成本都与上一期快照相同，而上一期快照日期是 2026-10-14，比 1017 发布早三天。在 Artificial Analysis 重新测量之前，应把它们看作 9 月版的数据。
-- **比前沿模型便宜、更快，但智能指数差得多。** 按这几行数据，V4.1 Flash 的单任务成本约为 Opus 5.5 的二十分之一，速度接近两倍，但智能指数比 Opus 5.5、GPT-6 Astra、Gemini 4 Argon 和 GPT-6.1 Sol 低 12 到 18 分。
+- **比前沿模型便宜、更快，但智能指数差得多。** 按这几行数据，V4.1 Flash 的单任务成本不到 Opus 5.5 的二十分之一，速度接近两倍，但智能指数比 Opus 5.5、GPT-6 Astra、Gemini 4 Argon 和 GPT-6.1 Sol 低 12 到 18 分。
 - **没有编程或 Agent 榜单的行。** DeepSeek V4.1 Flash、Opus 5.5、Argon、GPT-6.1 Sol 和 GPT-6 Luna 在 [编程][b-coding] 和 [Agent][b-agentic] 榜单上都没有对应的行，只有 GPT-6 Astra 有。而 DeepSeek 自己公布的 1017 基准里，变化最大的正是这两类（见 [更多实测](#更多实测)）。
 
 ## 我们实测的：Lab Pelican Test
@@ -44,7 +44,7 @@ DeepSeek-V4.1-Flash-1017 于 2026 年 10 月 17 日以同一个名称替换了 9
 | 6 | openai/gpt-6-luna | 2 | 3.25 | 100% | 100% | $0.006 |
 | 8 | openai/gpt-6-astra | 6 | 3.08 | 83% | 67% | $0.102 |
 
-DeepSeek 这一行混合了 2026-10-06（9 月版）和 2026-10-17 的运行，因此不是 1017 的分数。2026-10-17 的结果都晚于当天早上 X 上第一批 1017 帖子（07:13 UTC）。以下是 1017 版本的 [打分结果][pelican-ds]：
+DeepSeek 这一行混合了 2026-10-06（9 月版）和 2026-10-17 的运行，因此不是 1017 的分数。2026-10-17 的结果都晚于 X 上最早的一批 1017 帖子（本合集里有一条发于当天 04:03 UTC）。以下是 1017 版本的 [打分结果][pelican-ds]：
 
 | 时间（UTC） | 类型 | 得分 | 认得出 / 在骑 / 车 / 好看 | 输出 token | 耗时 | 成本 | 评委点评 |
 |---|---|---|---|---|---|---|---|
@@ -65,7 +65,7 @@ DeepSeek 这一行混合了 2026-10-06（9 月版）和 2026-10-17 的运行，�
 - **很费 token。** 每张 SVG 输出中位数 15,272 个 token，中位耗时 81 秒。
 - **样本量。** 只有一天内的七条打分结果。欢迎 [自己跑一次][pelican-run] 补充结果。
 
-Lab 其他代码测试还没有 1017 的结果：[Endless Runner][runner]（Canvas 游戏）没有 V4.1 Flash 的结果，V4.1 Flash 在 [Watermelon Test][watermelon] 上的最好结果来自 2026-10-12，早于 1017。
+Lab 其他代码测试还没有 1017 的结果：[Endless Runner][runner]（Canvas 游戏）没有 V4.1 Flash 的结果，V4.1 Flash 在 [Watermelon Test][watermelon] 上的结果来自 2026-10-10 和 2026-10-12，都早于 1017。
 
 ## 创作者报告的结果
 
@@ -74,7 +74,7 @@ Lab 其他代码测试还没有 1017 的结果：[Endless Runner][runner]（Canv
 | 作者 | 任务 | V4.1 Flash 1017 | 对比模型 | 作者结论 |
 |---|---|---|---|---|
 | [@marcthecreatorr][marc-opus] | 同一提示词 | 约 1 小时，$0.23 | Opus 5.5：20 分钟，约 $6 | Opus 在动画、音效和细节上更好；DeepSeek "pretty close"，有几处错误 |
-| [@ItsWonda_][wonda] | 与上一行相同的测试 | 1 小时，$0.23 | Opus 5.5：20 分钟，$6 | Opus 在打磨和操控上胜出；DeepSeek 很接近，"for 26x less" |
+| [@ItsWonda_][wonda] | 与上一行相同的数据 | 1 小时，$0.23 | Opus 5.5：20 分钟，$6 | Opus 在打磨和操控上胜出；DeepSeek 很接近，"for 26x less" |
 | [@wquguru][gummy] | 可以抓、拉、扔的软糖熊 | 约 $0.32（低谷时段），54 分钟 | Opus 5.5 + Fable 5.1 作顾问：约 $7.8（API 标价），61 分钟 | 静止时不相上下；一碰之后 DeepSeek 的熊会撕裂，眼睛会漂移 |
 | [@aGim_asf][showreel] | 15 秒动效 showreel | 约 6800 万 token | Opus 5.5：26 分钟，$5.75 | "Opus cooked"，DeepSeek "a lot cheaper" |
 | [@kepochnik][fnaf] | 《Five Nights at Freddy's》游戏 | 24 分钟 | Opus 5.5：38 分钟 | 让观众评判 |
@@ -86,7 +86,7 @@ Lab 其他代码测试还没有 1017 的结果：[Endless Runner][runner]（Canv
 | [@Bhavani_00007][whale] | 鲸鱼跃出水面测试 | 一次生成的结果 "blown out"；之后限额 $2.50 | Kimi K3：$2.50，一次生成 | Kimi 更好；DeepSeek "not on par with Opus 5 or Kimi in frontend and 3D" |
 | [@wikiwayne][seven] | 同样的 7 个游戏提示词 | 9 分 30 秒，$0.21，343,227 输出 token | Gemini 4 Argon：$1.34 · Beam：免费，3 分 45 秒 | 7 个都能正常加载；价格上 "crushed Argon" |
 
-没有并排视频的评价：[@GeekCatX][mower] 认为它的 3D 作品达到 Opus 5.5 的水平，与 Gemini 4 Argon 相当，但更慢；[@aibuilderclub_][globe] 认为它在审美和细节上与 Opus 5.5 相当；[@YifeiZhou][fps] 说它 "seems the same level as Gemini 4 and better than Chatgpt 6.1 sol"；[@UFO2002616][pelican-voxel] 指出 Gemini 4 和 GPT-6 Astra 发现了提示词里的一个错别字，DeepSeek 没有发现。
+没有并排视频的评价：[@GeekCatX][mower] 认为它的 3D 作品达到 Opus 5.5 的水平，与 Gemini 4 Argon 相当，但更慢；[@aibuilderclub_][globe] 认为它在审美和细节上与 Opus 5.5 相当；[@YifeiZhou][fps] 说它 "seems the same level as Gemini 4 and better than Chatgpt 6.1 sol"；[@UFO2002616][pelican-voxel] 指出 Gemini 4 和 GPT Astra 发现了提示词里的一个错别字，DeepSeek 没有发现。
 
 与 9 月版 V4.1 Flash 在同一提示词下的对比：
 
@@ -110,7 +110,7 @@ Lab 其他代码测试还没有 1017 的结果：[Endless Runner][runner]（Canv
 | [@UFO2002616][pelican-voxel] | 骑独轮车的体素鹈鹕，Max | 37 分钟，¥2.7 |
 | [@marcthecreatorr][medieval] | 中世纪体素世界，超过 200 万个体素，max 推理 | 约 25 分钟，约 $5 |
 
-两类数据呈现的规律：V4.1 Flash 1017 一次生成一个页面只要几美分，较长的 Harness 运行从 1 美元左右到 $5 不等。与 Opus 5.5 相比，创作者大多仍更喜欢 Opus 的打磨程度，但要多付约 24 到 26 倍的费用，而且 DeepSeek 也并不总是更快。与 GPT-6.1 Sol 和 GPT-6 Luna 相比，更多创作者更喜欢 DeepSeek 的结果。
+两类数据呈现的规律：V4.1 Flash 1017 一次生成一个页面只要几美分，较长的 Harness 运行从约 ¥1 到 $5 不等。与 Opus 5.5 相比，创作者大多仍更喜欢 Opus 的打磨程度，但要多付约 24 到 26 倍的费用，而且 DeepSeek 也并不总是更快。与 GPT-6.1 Sol 和 GPT-6 Luna 相比，更多创作者更喜欢 DeepSeek 的结果。
 
 ## 相信对比之前，先自己跑一遍
 

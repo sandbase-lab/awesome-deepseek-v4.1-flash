@@ -44,7 +44,7 @@ Leaderboard rows for the models on this page, from the [live leaderboard][pelica
 | 6 | openai/gpt-6-luna | 2 | 3.25 | 100% | 100% | $0.006 |
 | 8 | openai/gpt-6-astra | 6 | 3.08 | 83% | 67% | $0.102 |
 
-The DeepSeek row mixes runs from 2026-10-06 (the September build) and 2026-10-17, so it is not a 1017 score. The results dated 2026-10-17 all come after the earliest 1017 post in this collection (07:13 UTC that day). Those are the [scored results][pelican-ds] for the 1017 build:
+The DeepSeek row mixes runs from 2026-10-06 (the September build) and 2026-10-17, so it is not a 1017 score. The results dated 2026-10-17 all come after the first 1017 posts on X (this collection has one from 04:03 UTC that day). Those are the [scored results][pelican-ds] for the 1017 build:
 
 | Time (UTC) | Kind | Score | Recognizable / riding / bike / looks | Output tokens | Time | Cost | Judge's note |
 |---|---|---|---|---|---|---|---|
