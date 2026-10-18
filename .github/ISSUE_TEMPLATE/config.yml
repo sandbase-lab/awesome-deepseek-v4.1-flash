@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Watch and recreate the videos on SandBase Lab / 在 SandBase Lab 观看并复刻
+    url: https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017?utm_source=github&utm_medium=issue&utm_campaign=awesome-deepseek-v4.1-flash-1017
+    about: Full-size playback, prompts and one-click Recreate with DeepSeek V4.1 Flash 1017. / 大屏播放、提示词和一键复刻。
+  - name: Run DeepSeek V4.1 Flash 1017 / 调用 DeepSeek V4.1 Flash 1017
+    url: https://www.sandbase.ai/model/deepseek/deepseek-v4.1-flash?utm_source=github&utm_medium=issue&utm_campaign=awesome-deepseek-v4.1-flash-1017
+    about: Model page with pricing and API access on SandBase. / SandBase 模型页：价格与 API。
