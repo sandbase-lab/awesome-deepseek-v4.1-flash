@@ -2,11 +2,11 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 14 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 15 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (6)
+- [3D 场景](#3d-scene) (7)
 - [动效](#motion-graphics) (1)
 - [游戏](#game) (2)
 - [发布片](#launch-film) (2)
@@ -113,6 +113,28 @@ DeepSeek V4.1 Flash-1017, DeepThink on, Three.js.
 The sun glow is way too blown out, but the flock motion is legit.
 
 (Extremely laggy because I'm running this on my humble 2019 Acer Nitro 5.)
+```
+
+### Three.js特斯拉跑车物理特技动画
+
+[@my189](https://x.com/my189/status/2111795634827354332) · 0:13 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111795634827354332/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111795634827354332?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+刚跑完这段 Three.js 动画，我盯着屏幕愣了很久。
+
+DeepSeek-V4.1-Flash-1017 一次写通「磁吸倒挂 + RCS 
+冷气翻滚 + 反推缓降 + 悬挂回弹」整套连续物理状态。
+一个带 Flash 后缀的模型，居然把这一整套状态一次性丝滑写了出来。以前调重力、阻尼、粒子喷射和手持镜头抖动，够前端熬几个通宵
+
+现在一段分镜级 Prompt 就能生成可交互 Web 3D，门槛是真的被踏平了。
+
+把亲测效果拉满的分镜级物理提示词放下面，直接抄，也可以替换载具和受力状态，改成你自己的交互主页：
+
+Prompt：
+
+夜间户外实拍直播画面，得州 SpaceX 测试场，强烈的工业聚光灯照射。一辆流线型白色第二代 Tesla Roadster 高速冲上巨大的金属 C 形弧形坡道，驶至顶部 180 度完全倒置区域时，依靠车底强力吸附风扇稳稳倒挂静止在半空中。1 秒后，车辆脱离轨道顶端。车底反推喷口持续喷射白色高压冷气，缓慢降低下降速度；车身四周再爆发数道短促白色冷气脉冲（无明火），推动车身完成 180° 横滚回正。接近地面时车底向下喷出高压白雾缓冲，四轮柔和接地，避震压缩回弹。手持长焦跟拍，8K 写实物理引擎感，真实夜间光学眩光。用 Three.js + SVG 构建这段动画。
+
+换载具或受力状态就能改成自己的交互主页。跑出更酷的版本，评论区见
 ```
 
 <a id="motion-graphics"></a>
