@@ -2,15 +2,15 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 15 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 23 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (7)
+- [3D 场景](#3d-scene) (11)
 - [动效](#motion-graphics) (1)
-- [游戏](#game) (2)
+- [游戏](#game) (3)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (3)
+- [测试对比](#comparison) (6)
 
 <a id="3d-scene"></a>
 
@@ -49,6 +49,84 @@ DeepSeek V4.1 Flash 1017  《东京塔3D》
 提示继续方向：加一段自动巡游镜头、环境音，或把当前帧导出成 4K 海报；也可以把这种“实时场景 + 编辑式 HUD”的语言接到你的网站。
 
 兄弟们，这能打吗？
+```
+
+### Three.js 制作的特斯拉 Roadster 遥测轨迹仿真
+
+[@IFITALEX](https://x.com/IFITALEX/status/2111441312323088473) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111441312323088473/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111441312323088473?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Deepseek V4.1 1017实测完爆Gemini 4 Argon!
+
+我将Tesla  Roadster视频分别喂给Deepseek V4.1 1017和Gemini 4 Argon，构建一个基于 Three.js的单文件交互式科学遥测网页，完整模拟并拆解Tesla × SpaceX Roadster 在 McGregor 基地实测的全过程运动轨迹。
+
+在Deepseek Harness环境中，Deepseek V4.1耗时1h30s，总计花费¥4.04，除了运动轨迹以及汽车赛道没有完全模拟出来，3D建模这块真的完爆Gemini 4 Argon！
+
+反观Gemini 4 Argon，除了gemini网页端花费34min就制作出成品，汽车赛道比较完整外，汽车建模真的就很敷衍。
+
+以下是完整的提示词，想复刻的可以自己改改用！
+
+---------分割线---------
+
+# Tesla Roadster (SpaceX Package) 运动轨迹 3D 仿真网页制作方案
+
+## 一、 核心生成提示词（Master Prompt 归纳版）
+
+> **角色与任务**：构建一个基于 **Three.js** 的单文件交互式科学遥测网页（Single-File HTML），完整模拟并拆解 2026.10.15 Tesla × SpaceX Roadster 在 McGregor 基地实测的**“C 型半圆弧倒置跳台发射 → 坡顶水平倒挂射出 → 空中水平 180° 桶滚 → 离地 1m 水平喷气悬停 → 四轮平稳着陆”**全过程运动轨迹，帮助用户直观、简洁地学习整套运动学过程。
+>
+> **设计风格（Archival Telemetry × Risograph）**：
+> - **基底质感**：1970 年代 NASA 档案级特种米白图纸（`#F3EDE0`）叠加 SVG 纸张纤维噪点与正交工程坐标网格。
+> - **四色孔版油墨（Risograph Inks）**：联邦档案蓝（`#004E98`，车身主色与跳台结构）、荧光橙红（`#FF432E`，SpaceX 冷气推进羽流、主动尾翼与受力矢量）、孔雀青（`#00916E`，底盘 2G 真空吸附负压场）、档案赭黄（`#D99414`，楔形车头前照灯与质心轨迹线）、铅黑（`#1B1D21`，粗边框、实体轮胎与卡通描边）。
+>
+> **3D 实体汽车建模要求（拒绝简陋线框）**：
+> - 主体汽车必须采用 **Three.js 程序化 3D 实体超跑模型（Solid 3D Coupe Mesh）**，严禁使用空心透明线框（Wireframe）。
+> - 使用 `THREE.Shape` + `THREE.ExtrudeGeometry`（带斜切倒角 Bevel）构建低趴楔形车头、流线型深色玻璃座舱、宽体前后轮拱、车尾高翘主动尾翼与四个独立自转的 3D 实体车轮。
+> - **正反面高对比分色**：车身上表面采用**联邦蓝 + 深墨色座舱顶**，底盘下表面采用**孔雀青涡扇区 + 荧光红喷口底板**，外加 `BackSide` 铅黑轮廓描边（Ink Outline），确保在 3D 空间翻转时一眼分清车头/车尾、车顶/车底。
+
+---
+
+## 二、 极简页面布局架构（Single-Stage Minimalist Layout）
+
+彻底砍掉右侧多画布侧边栏与繁杂参数表，采用 **“全画幅 3D 舞台 + 轻量化浮层讲义 + 底部六阶段时间轴”** 的极简三段式单屏布局（`100vh` 无滚动）：
+
+1. **顶部极简档案栏（Header, 46px）**
+   - 左侧：档案标题 `TSLA × SPACEX ROADSTER // FLIGHT TELEMETRY` 与机密印章标签。
+   - 右侧：3D 视角一键切换按钮（`[默认微倾 3D 轴测]` / `[自由鼠标环绕 Orbit]` / `[车尾第一人称跟拍]`）+ `[蓝图暗房模式]`。
+
+2. **中央全画幅 3D 轨迹仿真舞台（Main 3D Viewport, 占屏幕 82% 面积）**
+   - **单一主视觉**：左侧为带钢桁架支撑的 3D 立体 **C 型半圆弧悬挑跳台（`⊂` 形）**，右侧为平抛空翻区、1m 水平悬停反推区与着陆跑道。
+   - **3D 实体频闪重影（3D Solid Strobe Ghosts）**：在轨迹的 6 个关键节点上，定格摆放半透明（Opacity 0.30）的 3D 实体跑车重影，一图看穿全过程姿态变化（可一键开关）。
+   - **右上角轻量化悬浮讲义卡（Floating Stage Card）**：仅用 **1 个标题 + 2 句精炼白话解析 + 3 个核心状态标（车头朝向 / 俯仰角 Pitch / 横滚角 Roll）** 实时说明当前阶段的运动原理。
+
+3. **底部六阶段交互时间轴（Footer Scrubber, 74px）**
+   - 上排：`[▶ 播放/暂停]`、`[0.25x 慢动作]`、`[3D 频闪重影开关]`、`[3D 受力矢量箭头开关]` + 连续时间拖拽滑块（`0.00s – 3.40s`）。
+   - 下排：**6 个阶段速学书签按钮**，点击任意阶段直接跳转并定格相机。
+
+---
+
+## 三、 核心运动轨迹与六阶段 3D 实体汽车姿态规范（100% 物理还原）
+
+全程运动在同一条连续时间轴 $t \in [0.00\text{s}, 3.40\text{s}]$ 内完成，严格遵循以下空间坐标与刚体欧拉角：
+
+| 阶段编号与名称 | 时间区间 | 车头切向朝向 (Heading) | 车身俯仰 (Pitch $\theta$) | 车身横滚 (Roll $\phi$) | 3D 实体姿态与物理特效表现 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **01 地面加速切入** | `0.00s – 0.55s` | **严格朝左 (`◀`, $-X$)** | $0^\circ$ (水平) | $0^\circ$ (四轮朝下) | 跑车从右侧助跑道向左高速冲入 `⊂` 型坡底；车尾喷射 3D 荧光红锥形冷气羽流。 |
+| **02 2G 吸附爬坡** | `0.55s – 1.35s` | **沿弧切线顺时针调头**<br>(`◀` → `▲ 朝上` → `↗`) | 随圆弧切线旋转<br>($0^\circ \rightarrow 180^\circ$) | 车轮锁死弧面 | 底盘开启孔雀青色 3D 负压吸附光环（$\vec{F}_{\text{suction}} = 2.0G$ 垂直压向坡面），克服重力沿内壁爬上坡顶。 |
+| **03 坡顶倒挂射出** | `1.35s – 1.75s` | **严格朝右 (`▶`, $+X$)** | **$0^\circ$ (平行地面)** | **$180^\circ$ (四轮朝天)** | 爬至坡顶悬挑段时车头已调头朝右（`▶`），**四轮朝上贴顶、深色车顶朝下**，平行于地面水平射出坡顶边缘！ |
+| **04 高空水平横滚** | `1.75s – 2.50s` | **严格朝右 (`▶`, $+X$)** | **$0^\circ$ (全程水平不低头)** | **$180^\circ \rightarrow 90^\circ \rightarrow 0^\circ$** | 离坡后风扇关闭；在下落抛物线上半段**车身保持水平（Pitch $\equiv 0^\circ$）**，两侧冷气喷嘴一上一下喷射产生力偶，使 3D 实体车身绕水平纵轴完成 $180^\circ$ 桶滚回正。 |
+| **05 离地 1m 水平悬停** | `2.50s – 2.95s` | **严格朝右 (`▶`, $+X$)** | **$0^\circ$ (严格水平)** | **$0^\circ$ (四轮水平朝下)** | **高空早已回正**；在离地约 $1\text{m}$ 处，以四轮水平朝下的正向姿态触发底盘垂直向下猛喷高压冷气（$\vec{F}_{\text{thruster}} \uparrow \gg mg$），在半空呈现**短暂水平悬停**，地面扩散 3D 气浪环。 |
+| **06 四轮水平触地** | `2.95s – 3.40s` | **严格朝右 (`▶`, $+X$)** | **$0^\circ$ (严格水平)** | **$0^\circ$ (四轮同时落轮)** | 底部反推气流平缓衰减，四个实体车轮保持水平同时轻柔触地，向右平稳滑行收尾。 |
+
+---
+
+## 四、 3D 空间受力矢量可视化（直接绑定在主车质心）
+
+无需额外的侧边图表，直接在 3D 跑车质心上实时渲染三根高对比度 **3D 实体圆锥箭头（`THREE.ArrowHelper` / 自定义立体箭头）**：
+1. **重力 $\vec{F}_g$（铅黑色，恒定垂直向下 $-Y$）**：全阶段常驻，作为受力参考基准。
+2. **真空风扇吸附力 $\vec{F}_{\text{suction}}$（孔雀青色，垂直指向 C 型坡面法向）**：仅在 `STAGE 01–03` 激活，直观解释为什么车子能吸在倒置天花板上。
+3. **SpaceX 冷气推力 $\vec{F}_{\text{thruster}}$（荧光橙红色）**：
+   - `STAGE 01–03`：沿车头方向推动加速；
+   - `ST…
 ```
 
 ### 通过Blender生成的3D过山车视频
@@ -137,6 +215,70 @@ Prompt：
 换载具或受力状态就能改成自己的交互主页。跑出更酷的版本，评论区见
 ```
 
+### Three.js 打造鹈鹕骑自行车 3D 场景
+
+[@dextune](https://x.com/dextune/status/2111830546313781515) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111830546313781515/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111830546313781515?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4.1 Flash 1017
+
+Substantially improved 3D capabilities over the previous version.
+
+Some are even wondering if it distilled Astro.
+
+Either way, the performance is solid.
+
+[ Prompt ]
+Create a complete single-file HTML application using Three.js. Build a detailed 3D pelican riding a bicycle. Synchronize the wheels, crank, pedals, legs, and body motions. Add orbit controls and adjustable cycling speed. Use procedural geometry without external 3D models.
+```
+
+### Three.js 打造鹈鹕骑自行车的 3D 交互场景
+
+[@0xmomonifty](https://x.com/0xmomonifty/status/2111832005222793362) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111832005222793362/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111832005222793362?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek-V4.1-Flash 1017 High + DSH 0.2.1-rc.2
+
+提示词：
+
+使用 Three.js 创建一个精致、可交互的 3D 网页场景：一只鹈鹕正在骑自行车。
+
+鹈鹕、自行车、环境、动画、灯光、摄像机和交互均通过程序实现
+
+鹈鹕需要真实地骑自行车，并具有协调的腿部、脚踏、车轮和身体运动
+
+不要使用 SVG、2D Canvas、外部 3D 模型或预渲染动画
+
+最终输出一个可以直接在现代浏览器中运行的完整 HTML 文件
+```
+
+### Three.js 机械镂空陀飞轮手表建模
+
+[@GeekCatX](https://x.com/GeekCatX/status/2112170183209226383) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112170183209226383/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112170183209226383?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+兄弟们，听猫哥一句劝：别再给天价大模型交智商税了。
+
+昨天猫哥刚测完 DeepSeek-V4.1-Flash-1017 的 3D 代码能力，基本上跟 Gemini 4 打得有来有回。
+
+今天手痒直接上强度，扔了张图让它跑 2D 转 3D。 结果半个小时拉满出片，直接把我看跪了——
+
+兄弟们看图（图1），我扔的根本不是什么普通大三针石英表，而是建模地狱级的： 全透蓝宝石水晶壳 + 机械全镂空陀飞轮（Tourbillon）！
+
+我提示词甚至没给分步参数，就一句大白话： “基于 Three.js 建模，保持齿轮正常机械转动。”
+
+懂 3D 和 WebGL 的兄弟都知道这有多离谱： Blender 资深美术拓扑这种镂空件都得死磕两天，更别说还要把透明折射和齿轮传动比写成代码。
+
+结果它交出来的答卷狠到令人发指：
+ 1️⃣ 材质吃透：把外壳识别成高透物理材质（Transmission + 菲涅尔反射），透光感直接拉满。
+ 2️⃣ 多层纵深解构：从表盘桥板到下层传动轴，4 层机械深度拆得清清楚楚，完全不是偷懒贴平面贴图！
+ 3️⃣ 物理传动真实咬合：擒纵轮、中心轮、逃轮按传动比写了完整的动效循环，跑起来齿齿相扣，丝滑到 60 帧！
+
+它叫 Flash 啊兄弟们！是个成本几乎可以忽略不计的轻量模型！
+
+别人还在吹天价大模型怎么写诗画画，DeepSeek 已经在后台单图编译机械三维空间了。 传统 3D 互动展示页面外包动辄大几万，现在喂张图，半小时连几何体带物理动画全给你敲出来。
+```
+
 <a id="motion-graphics"></a>
 
 ## 动效
@@ -198,6 +340,41 @@ It seems the same level as Gemini 4 and better than Chatgpt 6.1 sol
 https://t.co/RiCnOHggRw
 
 提示词：用 Three.js 写一个可直接打开的单文件 index.html：《以撒的结合》风格俯视角双摇杆肉鸽。WASD 移动，方向键/鼠标射泪；每局随机生成 5–9 个连通房间（起点/战斗/宝箱/Boss），3 颗红心，清房开门；敌人会移动/射击，死亡概率掉落红心或金币；宝箱房必须三选一，提供至少 6 种被动（射速/弹体/弹射/移速/穿透/追踪等）；Boss 两阶段，击败通关。美术全部程序化：暗黑骨瓷风、基础几何体角色、Canvas 纹理、粒子、WebAudio 音效，无外部素材。包含红心/楼层/道具 UI、暂停/死亡/胜利界面，以及自动瞄准清图到通关的 Playwright 自测，最终零控制台错误。
+```
+
+### 原生 WebGL 从零手搓可玩的我的世界
+
+[@XingYao47854](https://x.com/XingYao47854/status/2111770397570126118) · 1:45 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111770397570126118/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111770397570126118?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+deepseek依旧让我震惊，梁圣依旧牛逼！
+
+deepseek v4.1 flash 1017测试第二弹。
+
+提示词我会放评论区。
+
+我让它从零开始，不借鉴任何素材，手搓一个minecraft（我的世界）出来，花了7元人民币，以及一个小时12分钟，他展示出了他的实力。甚至连光影和水反都搓出来了。
+
+它还把红石信号给搓出来了。（红石大佬狂喜）
+
+有点幻视fable 5刚出来那会，手搓minecraft的场面了。
+
+如视频所示。
+
+他说有这么些东西：
+渲染：原生 WebGL2 + GLSL ES 3.00；64 层程序化 16×16 材质、51 种方块、72 种物品；PBR 风格地形、动态日月阴影（PCF）、天光/AO、火把点光、水面法线/菲涅尔/雾、HDR、Bloom、ACES、FXAA、暗角、颗粒。
+世界：无限种子地形、8 种生物群系、河流、洞穴、7 种矿脉、橡树/白桦/云杉、仙人掌、花草、海水与雪原；16×16×128 区块流式加载/卸载。
+生存循环：生命、饥饿、氧气、摔落/溺水/饥饿伤害、食物、工具速度、矿石掉落、死亡与重生。
+建造：挖掘、放置、中键选取、目标描边、破坏进度、粒子碎屑、方块音效、快捷栏与 36 格背包、22 个配方、配方书、创造物品面板。
+生物：猪、僵尸、苦力怕。苦力怕会靠近、引信闪烁、爆炸并破坏地形；生物有受击、掉落、夜间生成与简单 AI。
+模式/系统：生存 / 创造、创造飞行、种子输入、自动保存与继续世界、暂停/设置/帮助/背包/死亡界面。
+声音：风、鸟、脚步、挖掘、放置、受伤、进食、合成、水花、僵尸低吼、苦力怕爆炸，以及生成式氛围音乐——全部 Web Audio 实时合成。
+经典 3×3 合成网格：光标拾取/拆分/放置，实时显示产物；工作台右键打开合成页；配方书保留。
+天气系统：晴 / 雨 / 雷暴 / 雪原降雪；天空、雾、环境光随天气变暗；屏幕雨幕、雪花、闪电白闪；雨声、雷声；天气写入存档。
+农业与食物链：木/石/铁锄、耕地、四阶段小麦、自动生长、收获、面包；苹果/猪排/牛肉/羊肉/鸡肉等食物。
+更多动物：牛、羊、鸡，加上原有猪/僵尸/苦力怕；白天游荡、掉落肉/皮革/羊毛/羽毛，带独立叫声和模型。
+附魔台：附魔 UI、青金石消耗、随机三项报价；效率（挖掘速度）、锋利（近战伤害）、时运（额外方块掉落）、抢夺（额外生物掉落），可叠 I–III。
+简单红石：拉杆 → 红石线 → 红石灯；15 格网络传播，通电变色、灯发光并提供点光；红石线按四邻接自动选择 X/Z/十字贴图。
 ```
 
 <a id="launch-film"></a>
@@ -284,4 +461,131 @@ Same prompt.  Same task.
 Build a cinematic 3D animation explaining how a Tesla-style electric motor works.
 
 Is Opus in trouble?
+```
+
+### Canvas 螺旋星系动画生成效果对比
+
+[@WescheNex1q](https://x.com/WescheNex1q/status/2111921937865687247) · 0:09 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111921937865687247/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111921937865687247?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4.1 orig vs 1017 on Spark-Bench, solar / galaxy / DNA
+
+-Orig (EXL3 2.9bpw, thinking on)
+1,251,777 tok · TrueScore 88.7 · median 24.8s · galaxy HTML 9,622 B
+
+-1017 (same stack)
+632,363 tok · TrueScore 86.1 · median 16.4s · galaxy HTML 6,324 B
+
+1017 made the better galaxy. Half the tokens.
+
+Prompt:
+“Create a single self-contained HTML file (no external libraries) with a canvas animation of a spiral galaxy: hundreds of stars rotating around a bright core, with subtle color variation and twinkle, on a black background, animated via requestAnimationFrame. Output ONLY the HTML in one code block.”
+```
+
+### JavaScript房间漫游效果对比
+
+[@grokkedd](https://x.com/grokkedd/status/2112207013971214693) · 0:25 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112207013971214693/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112207013971214693?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4.1 Flash 1017 vs Claude Haiku 5.5. Same prompt: build a sweet room in JavaScript
+
+A Reddit user ran both and posted the camera tour side by side. DeepSeek ran in a coding harness this time, not the web UI.
+
+What to check in the video:
+
+> Light: how window light and shadows fall on the floor and the bed
+> Props: desk, shelves, plant, posters, and how much detail each model added
+> Camera: how smoothly it moves through the room
+> Rough edges: clipping, flat spots, blown-out highlights
+
+The author does not name a winner, so judge it from the video.
+
+If you run this test yourself, keep the setup identical for both models. Harness versus web UI can change the result.
+
+Credit: u/Impressive-Chard-666 on r/DeepSeek
+```
+
+### DeepSeek 与 Opus 网页设计效果对比
+
+[@borjaperfra](https://x.com/borjaperfra/status/2112246508376444987) · 0:35 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112246508376444987/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112246508376444987?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+El nuevo Deepseek v4.1 flash 1017 vs Opus 5.5
+👀 He estado probando el nuevo DeepSeek v4.1 Flash 1071 a nivel de diseño. Y me ha sorprendido mucho. 
+
+Y lo he querido comparar con Opus 5.5 👀
+- Mismo prompt para los dos
+- Cada uno con su harness (Claude Code vs DSH)
+
+Les he pedido a ambos que me crearan una publicación digital sobre tecnología, IA, cultura digital e internet. Una web con un diseño muy cuidado. 
+Tenéis el prompt abajo de todo. No les he dado ninguna guía de diseño. Es más, les he dicho literalmente que tienen "libertad creativa".
+
+Pero Borja, ¿es mejor Deepseek u Opus? 
+En cuestiones de diseño puro y duro, Opus sigue estando un poco por delante.
+A pesar de que el juez del benchmark (un LLM ciego) haya dado algo más de puntuación a Deepseek, en cuanto a dirección artística y gusto, Opus ha conseguido crear una experiencia mucho más completa. Además, la lectura me parece mucho más cómoda. 
+Para mí, está un escalón por encima. 
+Eso sí, estamos hablando de detalles que con Deepseek se podrían refinar una v.2. 
+A nivel de velocidad, Opus ha terminado en apenas 17 min frente a los 40 que le ha llevado a Deepseek. 
+
+Una de las cosas más llamativas es que AMBOS han llegado a la misma dirección artística de manera independiente. Han cogido la metáfora de la radio y del signal/ noise y lo han llevado a los mismos colores, tipografías y recursos visuales. 
+Entiendo que tiene que ver con el set de datos de entrenamiento en el que se basan, pero es muy curioso.  
+
+Os dejo aquí las dos webs que han creado con la comparativa para que las podáis ver. Creo que esto podemos convertirlo en un benchmark de diseño conforme vayan saliendo los modelos. 
+- Web del Design Challenge con ambas para comparar: https://t.co/b2OdwmfGZB
+- Web de Deepseek: https://t.co/5aCfs2e1w8
+- Web de Opus: https://t.co/G1LSVJQwwG
+
+Repito que esto ha sido el primer resultado con un solo prompt. 
+
+Este es el prompt, por si queréis probarlo vosotros
+"### Tu misión
+
+Diseña y desarrolla una publicación digital experimental llamada **SIGNAL / NOISE**.
+
+Es una revista independiente sobre tecnología, inteligencia artificial, cultura digital y el futuro de internet.
+
+Queremos una web que pueda competir visualmente con los mejores proyectos de diseño editorial digital. Una experiencia con personalidad, no otra landing genérica de SaaS.
+
+Tienes libertad creativa para decidir la dirección de arte, tipografía, composición, paleta cromática, animaciones y sistema visual.
+
+No quiero que me expliques cómo diseñarías la web. **Quiero que la construyas.**
+
+### Producto
+
+La web tendrá cuatro componentes principales:
+
+**1. Portada editorial**
+
+Una primera pantalla que establezca inmediatamente la identidad de la publicación.
+
+Debe incluir el nombre SIGNAL / NOISE, el número de edición (ISSUE 001), una pieza editorial protagonista y una composición visual que resulte memorable.
+
+**2. Índice de artículos**
+
+Una selección de seis artículos ficticios, pero verosímiles, sobre tecnología y cultura digital.
+
+No uses seis tarjetas idénticas. Diseña una composición editorial que permita distinguir historias protagonistas, artículos secundarios y contenidos breves.
+
+**3. Experiencia de lectura**
+
+Desarrolla al menos un artículo completo, al que se pueda acceder desde la portada.
+
+Título del artículo: "The Internet Is Becoming a Place Without People".
+
+Incluye una entradilla, varios apartados, citas destacadas y algún recurso visual integrado en el contenido.
+
+Debe ser una experiencia de lectura agradable y cuidada.
+
+**4. Navegación e interacciones**
+
+Implementa navegación funcional, transiciones, estados hover, indicadores visuales y pequeños detalles de interacción.
+
+Las animaciones deben aportar algo a la experiencia, no ser decoración gratuita.
+
+### Requisitos técnicos
+
+- React, TypeScript y Tailwind CSS.
+- Puedes utilizar librerías de animación e iconos.
+- Diseño responsive para escritorio y móvil.
+- Accesibilidad básica, navegación por teclado y soporte para `prefers-reduced-motio…
 ```
