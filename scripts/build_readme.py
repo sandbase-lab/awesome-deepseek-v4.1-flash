@@ -14,6 +14,9 @@ DOC_UTM = utm('docs')
 BLOG_UTM = utm('readme', 'reading')
 LAB = CFG['lab_collection']
 VISIBLE = 6  # cards per category shown before "show all"
+# SandBase blog posts are optional: a model that shipped days ago may have none yet, and the list
+# must not invent links (see CFG['reading'] in config.py). Everything reading-related is skipped.
+HAS_READING = bool(CFG['reading'])
 
 
 def lab(path='', loc='en', content=None):
@@ -42,7 +45,7 @@ def links(loc):
         'arena_quickstart': f'{CFG["arena"]}&{lang}{UTM}&utm_content=quickstart',
         'model_page': f'{CFG["model_page"]}?{UTM}', 'keys': f'{CFG["keys"]}?{UTM}', 'sandbox': f'{CFG["sandbox"]}?{UTM}',
         'evals': f'{CFG["evals"]}?{lang}{UTM}', 'pelican': f'{CFG["pelican"]}?{lang}{UTM}',
-        'blog_update': blog(CFG['reading'][0][0], loc),
+        'blog_update': blog(CFG['reading'][0][0], loc) if HAS_READING else '',
         'lab_home': f'{CFG["lab_home"]}?{lang}{UTM}', 'all_collections': f'{CFG["all_collections"]}?{lang}{UTM}',
     }
 
@@ -129,7 +132,10 @@ def readme(loc):
     if featured:
         lines.append(f'- [{t["featured"]}](#featured) ({len(featured)})')
     lines += [f'- [{name(c)}](#{c}) ({sum(v["category"] == c for v in VIDEOS)})' for c in cats]
-    lines += [f'- [{t["recreate"]}](#recreate)', f'- [{t["faq"]}](#faq)', f'- [{t["reading"]}](#reading)', f'- [{t["contribute"]}](#contribute)', '', t['how'], '']
+    lines += [f'- [{t["recreate"]}](#recreate)', f'- [{t["faq"]}](#faq)']
+    if HAS_READING:
+        lines.append(f'- [{t["reading"]}](#reading)')
+    lines += [f'- [{t["contribute"]}](#contribute)', '', t['how'], '']
     if featured:
         lines += ['<a id="featured"></a>', '', f'## {t["featured"]}', '', *table(featured, loc), '']
     for c in cats:
@@ -142,7 +148,8 @@ def readme(loc):
               '<a id="faq"></a>', '', f'## {t["faq"]}', '']
     for q, a in t['faq_items']:
         lines += [f'### {q}', '', a, '']
-    lines += ['<a id="reading"></a>', '', f'## {t["reading"]}', '', t['reading_intro'], '', *reading(loc), '']
+    if HAS_READING:
+        lines += ['<a id="reading"></a>', '', f'## {t["reading"]}', '', t['reading_intro'], '', *reading(loc), '']
     lines += ['<a id="contribute"></a>', '', f'## {t["contribute"]}', '', t['contribute_body'], '', f'## {t["credits"]}', '']
     for p in t['credits_body']:
         lines += [p, '']
