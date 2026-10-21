@@ -60,6 +60,22 @@ for path in scanned:
     hit = forbidden.search(path.read_text(encoding='utf-8'))
     check(not hit, f'{path.relative_to(ROOT).as_posix()}: contains a local path, a key or a sibling-list link ({hit.group(0) if hit else ""})')
 
+# Any other list's campaign or collection path is a copied-over link (all siblings, not just the template).
+for path in scanned:
+    if path.name == 'validate.py' or path.suffix == '.pyc':
+        continue
+    text = path.read_text(encoding='utf-8')
+    for m in re.finditer(r'utm_campaign=(awesome-[A-Za-z0-9.-]+)', text):
+        check(m.group(1) == CFG['campaign'], f'{path.relative_to(ROOT).as_posix()}: utm_campaign={m.group(1)} belongs to another list')
+    for m in re.finditer(r'/lab/ai-videos/([a-z0-9-]+)/', text):
+        check(m.group(1) == CFG['slug'], f'{path.relative_to(ROOT).as_posix()}: links collection {m.group(1)}, not {CFG["slug"]}')
+
+# The README promises CFG['guide_patterns'] patterns; the guide must have that many numbered sections.
+for loc in ('', 'zh-CN/'):
+    guide = (ROOT / 'docs' / f'{loc}prompt-guide.md').read_text(encoding='utf-8')
+    n = len(re.findall(r'^## \d+\.', guide, re.M))
+    check(n == CFG['guide_patterns'], f'docs/{loc}prompt-guide.md has {n} numbered patterns, config says {CFG["guide_patterns"]}')
+
 if errors:
     print('\n'.join(f'FAIL: {e}' for e in errors[:50]))
     raise SystemExit(f'{len(errors)} problem(s)')

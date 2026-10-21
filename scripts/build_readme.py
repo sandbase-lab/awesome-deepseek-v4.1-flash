@@ -68,14 +68,20 @@ def localize(loc):
 
 T = {loc: localize(loc) for loc in ('en', 'zh-CN')}
 
-CURL = '''```bash
+KIND = CFG.get('kind', 'code')
+CODE_CURL = '''```bash
 jq -n --rawfile prompt prompt.txt \\
   '{model: "%s", max_tokens: %d, messages: [{role: "user", content: $prompt}]}' |
 curl -sS --max-time 900 https://api.sandbase.ai/v1/chat/completions \\
   -H "Authorization: Bearer $SANDBASE_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d @- | jq -r '.choices[0].message.content' | sed '/^```/d' > %s
-```''' % (MODEL_ID, CFG['max_tokens'], CFG['html_out'])
+```''' % (MODEL_ID, CFG['max_tokens'], CFG['html_out']) if KIND == 'code' else ''
+# A video model renders the clip itself: one CLI call (tool name from `sandbase discover`).
+VIDEO_CLI = '''```bash
+npx -y @sandbaseai/cli@latest run %s -f prompt.json -w -o result.json
+```''' % CFG.get('cli_tool', '') if KIND == 'video' else ''
+CURL = CODE_CURL or VIDEO_CLI
 
 
 def length(ms):
