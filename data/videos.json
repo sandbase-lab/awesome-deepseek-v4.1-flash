@@ -162,6 +162,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111395155505033338"
  },
  {
+  "id": "2111398174548214218",
+  "title": "Comparison of SpaceX Super Heavy booster catch animation",
+  "title_zh": "SpaceX超重型助推器捕获动画对比",
+  "category": "comparison",
+  "author": {
+   "handle": "adamshafizullah",
+   "name": "Adam Suchi Hafizullah"
+  },
+  "postUrl": "https://x.com/adamshafizullah/status/2111398174548214218",
+  "createdAt": "2026-10-17T10:05:27.000Z",
+  "durationMs": 21866,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111398174548214218/video.mp4",
+  "promptShared": true,
+  "promptText": "🚀 DeepSeek-V4.1-Flash-1017 just dropped, so I put it head to head with Claude Opus 5.5 (High) and Claude Sonnet 5.5 (High).\n\nSame prompt for all three: a Three.js animation of the SpaceX Super Heavy booster being caught by Mechazilla, in a single HTML file.",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111398174548214218/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111398174548214218"
+ },
+ {
   "id": "2111400595412160727",
   "title": "Launch video for the tool-mode project",
   "title_zh": "tool-mode项目发布介绍视频",
@@ -1146,6 +1165,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111495903672438850"
  },
  {
+  "id": "2111498348880433384",
+  "title": "Interactive Three.js website with 3D sculpture",
+  "title_zh": "含3D雕塑元素的交互式Three.js网页",
+  "category": "3d-scene",
+  "author": {
+   "handle": "Huoimo",
+   "name": "HuoiMo"
+  },
+  "postUrl": "https://x.com/Huoimo/status/2111498348880433384",
+  "createdAt": "2026-10-17T16:43:30.000Z",
+  "durationMs": 17233,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111498348880433384/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111498348880433384/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111498348880433384"
+ },
+ {
   "id": "2111501438564331534",
   "title": "Comparison of rocket launch scenes",
   "title_zh": "火箭发射场景生成效果对比",
@@ -1180,6 +1217,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111503929083359640/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111503929083359640"
+ },
+ {
+  "id": "2111506897656545394",
+  "title": "Visual test with DeepSeek V4.1 Flash",
+  "title_zh": "DeepSeek V4.1 Flash 视觉生成测试",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "seanphan",
+   "name": "Sean Phan"
+  },
+  "postUrl": "https://x.com/seanphan/status/2111506897656545394",
+  "createdAt": "2026-10-17T17:17:28.000Z",
+  "durationMs": 45354,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111506897656545394/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111506897656545394/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111506897656545394"
  },
  {
   "id": "2111506980733120860",
@@ -1887,6 +1942,43 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111717582118240676"
  },
  {
+  "id": "2111741087710949431",
+  "title": "Self-promotional MP4 video generated with Remotion",
+  "title_zh": "用 Remotion 生成的模型能力自证视频",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "cheery9998",
+   "name": "Cheery"
+  },
+  "postUrl": "https://x.com/cheery9998/status/2111741087710949431",
+  "createdAt": "2026-10-18T08:48:04.000Z",
+  "durationMs": 52000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111741087710949431/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111741087710949431/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111741087710949431"
+ },
+ {
+  "id": "2111749742929883258",
+  "title": "Playable racing game and SVG camera demo",
+  "title_zh": "可玩赛车小游戏与SVG相机演示",
+  "category": "game",
+  "author": {
+   "handle": "datouboshibb",
+   "name": "Datou_AI"
+  },
+  "postUrl": "https://x.com/datouboshibb/status/2111749742929883258",
+  "createdAt": "2026-10-18T09:22:27.000Z",
+  "durationMs": 15000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111749742929883258/video.mp4",
+  "promptShared": true,
+  "promptText": "DeepSeek 又更新了！帮大家测了一下性能\n\n这次测试 demo 里有一辆能玩的赛车，还有一台用 SVG 画出来的相机、一段能直接播放的教程动效。\n\n翻了一圈各个平台上的原帖，跑分没记住几个，倒是这些玩意儿让人多停了两秒。然后就想：给它一个具体需求，最后交到我手里的到底是什么。\n\n【更新了什么】\n\n10 月 17 日，V4.1 Flash 变成 V4.1-Flash-1017，网页、App、API 同步。开发者不用改代码，还是调 deepseek-flash，价格没动。\n\n官方这次重点不在分数，在从零做游戏、做 3D 建模这种完整项目，说新版任务耗时和输出长度都短了。演示跑在 DeepSeek Harness 上。基准图也是官方自己测的，看的时候连测试条件一起看。\n\n普通人想知道值不值，其实不用盯这些。找一件边界清楚的小事丢给它，看能不能做成。\n\n赛车那段，过程比结果有意思\n\n视频里那辆车，代码来自这次留下的 deepseek-flash 会话，之后在浏览器里跑起来录的。\n\n记录里存了两版。第一版自动演示跑到 5.8 秒撞了。把这个“撞车”原样丢回去，第二版跑完 15 秒。左右换道、重新开始也都试了，重开之后分数归零。\n\n得说清楚几点：自动演示带辅助控制，画面上标了；这个会话没锁 1017，也没做新旧对比。所以它证明的是一个小项目从跑不通到跑通的过程，证明不了模型之间的强弱。\n\n想自己试，从一个文件开始\n\n发这么一段就行：\n\n“帮我做一个单文件 HTML 赛车小游戏。方向键控制左右换道，有障碍、计分、碰撞结束、重新开始。不用外部图片，不联网。先给能跑的基础版和完整代码，再说怎么保存、怎么打开。最后列三条需要我手动验的。缺信息就先说你的假设。”\n\n这段是这轮现写的，还没拿新版跑过。\n\n拿到代码存成 race.html，浏览器打开。没做过网页的，让它一步步讲怎么存。\n\n然后只验三件事：能不能打开；按键灵不灵；点重新开始，状态和分数是不是都回去了。\n\n出毛病的时候，把“我点了什么、看到什么、本来想看到什么”写清楚。比如“点了重新开始，车回起点了，分数还留着”。这种描述下一轮才接得住。\n\n同样的法子能套在活动预算、倒计时、排班表上。挑一件你每周真的会点开的东西，别挑“一个厉害的工具”。\n\n【费用】\n\n单价没变。新增的是 Search 和 Fetch，一个找网页，一个读正文，每千次成功且有结果的请求 5 元。服务端的自动搜索、抓取从北京时间 11 月 1 日 00:00 开始计费。\n\n用 Harness 的，官方建议升到 0.2.1-rc.1 以上。\n#deepseek",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111749742929883258/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111749742929883258"
+ },
+ {
   "id": "2111750475930570800",
   "title": "Comparison of 3D horse simulation across three models",
   "title_zh": "三款模型3D马匹模拟对比",
@@ -2197,6 +2289,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111832005222793362"
  },
  {
+  "id": "2111844370731430358",
+  "title": "Comparing a raccoon washing dishes animation",
+  "title_zh": "浣熊洗碗动画生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "benjistacked",
+   "name": "benji 💵"
+  },
+  "postUrl": "https://x.com/benjistacked/status/2111844370731430358",
+  "createdAt": "2026-10-18T15:38:28.000Z",
+  "durationMs": 19500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111844370731430358/video.mp4",
+  "promptShared": true,
+  "promptText": "cheapest open source model? put it to the test 🦝\n\nsame prompt: a raccoon washing the dishes\n\n• DeepSeek V4.1 Flash 1017: 22 mins, $0\n• Opus 5.5: 57 mins, $10.07\n\nopus wins. deepseek still got the raccoon out the window for $0",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111844370731430358/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111844370731430358"
+ },
+ {
   "id": "2111847739994800134",
   "title": "Recreating the Mr. Bean rooftop driving scene",
   "title_zh": "三款模型复刻憨豆先生车顶驾驶场景",
@@ -2411,6 +2522,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111893173933130039/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111893173933130039"
+ },
+ {
+  "id": "2111905877016170549",
+  "title": "Three.js demo in a single HTML file",
+  "title_zh": "单 HTML 文件中的 Three.js 演示",
+  "category": "3d-scene",
+  "author": {
+   "handle": "beyondwudan",
+   "name": "abhinav"
+  },
+  "postUrl": "https://x.com/beyondwudan/status/2111905877016170549",
+  "createdAt": "2026-10-18T19:42:53.000Z",
+  "durationMs": 48000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111905877016170549/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111905877016170549/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111905877016170549"
  },
  {
   "id": "2111917405404361211",
@@ -2902,24 +3031,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112227205300564211"
  },
  {
-  "id": "2112233437574914132",
-  "title": "MiniMax M3.1 Flash versus DeepSeek 1017 comparison",
-  "title_zh": "MiniMax M3.1 Flash对比DeepSeek 1017",
-  "category": "comparison",
-  "author": {
-   "handle": "loktar00",
-   "name": "Loktar 🇺🇸"
-  },
-  "postUrl": "https://x.com/loktar00/status/2112233437574914132",
-  "createdAt": "2026-10-19T17:24:29.000Z",
-  "durationMs": 105000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112233437574914132/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112233437574914132/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112233437574914132"
- },
- {
   "id": "2112235760073994630",
   "title": "3D stress ball comparison between models",
   "title_zh": "两款模型生成3D压力球对比",
@@ -3027,5 +3138,312 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112293216913347010/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112293216913347010"
+ },
+ {
+  "id": "2112295977461699019",
+  "title": "Model output comparison using the same prompt",
+  "title_zh": "相同提示词下的模型效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "loktar00",
+   "name": "Loktar 🇺🇸"
+  },
+  "postUrl": "https://x.com/loktar00/status/2112295977461699019",
+  "createdAt": "2026-10-19T21:33:00.000Z",
+  "durationMs": 60000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112295977461699019/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112295977461699019/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112295977461699019"
+ },
+ {
+  "id": "2112314662712729941",
+  "title": "JavaScript animation and song about DeepSeek",
+  "title_zh": "DeepSeek用JS制作的自述歌曲动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "quimedesu",
+   "name": "Ark"
+  },
+  "postUrl": "https://x.com/quimedesu/status/2112314662712729941",
+  "createdAt": "2026-10-19T22:47:15.000Z",
+  "durationMs": 281933,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112314662712729941/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112314662712729941/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112314662712729941"
+ },
+ {
+  "id": "2112379305720524915",
+  "title": "3D motor challenge comparison on Canopy Wave",
+  "title_zh": "Canopy Wave 上的 3D 电机挑战模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "CanopyWave_CW",
+   "name": "Canopy Wave Developers"
+  },
+  "postUrl": "https://x.com/CanopyWave_CW/status/2112379305720524915",
+  "createdAt": "2026-10-20T03:04:07.000Z",
+  "durationMs": 40008,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112379305720524915/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112379305720524915/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112379305720524915"
+ },
+ {
+  "id": "2112389779677642902",
+  "title": "Three models generating a Three.js voxel pagoda",
+  "title_zh": "三大模型生成 Three.js 体素宝塔对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Rohit_115",
+   "name": "Rohit"
+  },
+  "postUrl": "https://x.com/Rohit_115/status/2112389779677642902",
+  "createdAt": "2026-10-20T03:45:44.000Z",
+  "durationMs": 109916,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112389779677642902/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112389779677642902/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112389779677642902"
+ },
+ {
+  "id": "2112480737110700384",
+  "title": "DeepSeek versus MiniMax code generation comparison",
+  "title_zh": "DeepSeek与MiniMax代码生成对比测试",
+  "category": "comparison",
+  "author": {
+   "handle": "CodeByNZ",
+   "name": "NZ ☄️"
+  },
+  "postUrl": "https://x.com/CodeByNZ/status/2112480737110700384",
+  "createdAt": "2026-10-20T09:47:10.000Z",
+  "durationMs": 37200,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112480737110700384/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112480737110700384/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112480737110700384"
+ },
+ {
+  "id": "2112495928498164091",
+  "title": "Isometric flood control game model comparison",
+  "title_zh": "等距防洪游戏多模型对比测试",
+  "category": "comparison",
+  "author": {
+   "handle": "sonnnanonaisa",
+   "name": "edgeeth"
+  },
+  "postUrl": "https://x.com/sonnnanonaisa/status/2112495928498164091",
+  "createdAt": "2026-10-20T10:47:32.000Z",
+  "durationMs": 30046,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112495928498164091/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112495928498164091/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112495928498164091"
+ },
+ {
+  "id": "2112503076049576095",
+  "title": "DeepSeek V4.1 Flash versus MiniMax M3.1 Flash",
+  "title_zh": "DeepSeek 与 MiniMax 模型生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "AiHubMix",
+   "name": "AIHubmix"
+  },
+  "postUrl": "https://x.com/AiHubMix/status/2112503076049576095",
+  "createdAt": "2026-10-20T11:15:56.000Z",
+  "durationMs": 32099,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112503076049576095/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112503076049576095/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112503076049576095"
+ },
+ {
+  "id": "2112511913129071096",
+  "title": "A voxel world generated on DGX Sparks",
+  "title_zh": "DGX Sparks上构建的体素世界",
+  "category": "3d-scene",
+  "author": {
+   "handle": "niklaslenz_ai",
+   "name": "Niklas"
+  },
+  "postUrl": "https://x.com/niklaslenz_ai/status/2112511913129071096",
+  "createdAt": "2026-10-20T11:51:03.000Z",
+  "durationMs": 36700,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112511913129071096/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112511913129071096/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112511913129071096"
+ },
+ {
+  "id": "2112521347805143490",
+  "title": "Pixel art cat riding a bicycle model comparison",
+  "title_zh": "像素风橘猫骑自行车模型对比测试",
+  "category": "comparison",
+  "author": {
+   "handle": "IFITALEX",
+   "name": "洞寓法师🦁"
+  },
+  "postUrl": "https://x.com/IFITALEX/status/2112521347805143490",
+  "createdAt": "2026-10-20T12:28:32.000Z",
+  "durationMs": 20828,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112521347805143490/video.mp4",
+  "promptShared": true,
+  "promptText": "主流Flash模型实测第二弹～Minimax M3.1 flash耗时82分钟，产出只有DeepSeek一半，Gemini 3.8 flasH极速交付综合性能更好！\n\n同一任务交给 DeepSeek、Gemini 和 Minimax 的最新Flash模型，在各自的 Harness 中运行。单看最终代码的工程完备度与细节，DeepSeek 最为扎实，但三者展现出了截然不同的工程取向：\n\n- DeepSeek V4.1 flash 1017\n\n用时 36 分钟，实际有效输出达 25.4 万 Token（三者中最多），99.7% 的缓存命中率确实🐮，最终的输出质量最扎实，但审美不如Gemini。\n\n- Gemini 3.8 flash\n\n仅耗时 5 分半交付，总 Token 消耗只有 31 万（输出近 6 万），缓存命中率 73.19%。，算力开销极低、响应极快，非常契合高频迭代场景，最终的输出效果我最喜欢！兼顾速度与质量。\n\n- Minimax M3.1 flash\n\n运行了 1 小时 22 分钟，有效输出 12.8 万 Token（约为 Gemini 的两倍），总消耗约 1300 万 Token，缓存命中率 95.51%。在长程任务中展现出很强的探索持续性，但时间成本相对较高。\n\n使用的提示词如下：\n\n-----------分割线------------\n\n使用 Canvas 实现 16-bit 像素艺术风格的“橘猫骑自行车”侧面全身循环动画，画面居中、色彩鲜明、背景简洁，开启 image-rendering: pixelated 保持清晰像素颗粒感。输出单个独立的 HTML 网页（内联 CSS 与 JS）。\n\n-----------分割线------------",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112521347805143490/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112521347805143490"
+ },
+ {
+  "id": "2112522568523714617",
+  "title": "Slice Master game built with DeepSeek",
+  "title_zh": "DeepSeek 构建的切片大师游戏",
+  "category": "game",
+  "author": {
+   "handle": "TypingMindApp",
+   "name": "TypingMind"
+  },
+  "postUrl": "https://x.com/TypingMindApp/status/2112522568523714617",
+  "createdAt": "2026-10-20T12:33:23.000Z",
+  "durationMs": 47933,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112522568523714617/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112522568523714617/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112522568523714617"
+ },
+ {
+  "id": "2112532217624674383",
+  "title": "Running cow animation compared across three models",
+  "title_zh": "三款模型奔跑奶牛动画效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "pipeline_os",
+   "name": "Pipeline OS"
+  },
+  "postUrl": "https://x.com/pipeline_os/status/2112532217624674383",
+  "createdAt": "2026-10-20T13:11:44.000Z",
+  "durationMs": 14303,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112532217624674383/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112532217624674383/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112532217624674383"
+ },
+ {
+  "id": "2112562717567631788",
+  "title": "Pelican Mafia test comparing OpenCode Go and API",
+  "title_zh": "鹈鹕黑帮测试对比OpenCode与官方API输出",
+  "category": "comparison",
+  "author": {
+   "handle": "VulKan42069",
+   "name": "VulKan"
+  },
+  "postUrl": "https://x.com/VulKan42069/status/2112562717567631788",
+  "createdAt": "2026-10-20T15:12:56.000Z",
+  "durationMs": 78083,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112562717567631788/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112562717567631788/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112562717567631788"
+ },
+ {
+  "id": "2112564497105953123",
+  "title": "DeepSeek versus MiniMax code output comparison",
+  "title_zh": "DeepSeek与MiniMax代码生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "EnvolDev",
+   "name": "Tony"
+  },
+  "postUrl": "https://x.com/EnvolDev/status/2112564497105953123",
+  "createdAt": "2026-10-20T15:20:00.000Z",
+  "durationMs": 25000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112564497105953123/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112564497105953123/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112564497105953123"
+ },
+ {
+  "id": "2112573104996089906",
+  "title": "Four AI models coding a rocket launch",
+  "title_zh": "四款AI模型纯代码构建火箭发射",
+  "category": "comparison",
+  "author": {
+   "handle": "RafaCrackYT",
+   "name": "Rafa"
+  },
+  "postUrl": "https://x.com/RafaCrackYT/status/2112573104996089906",
+  "createdAt": "2026-10-20T15:54:12.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112573104996089906/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112573104996089906/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112573104996089906"
+ },
+ {
+  "id": "2112582117234548777",
+  "title": "Voxel world generated by DeepSeek-V4.1-Flash",
+  "title_zh": "DeepSeek-V4.1-Flash 生成的体素世界",
+  "category": "3d-scene",
+  "author": {
+   "handle": "niklaslenz_ai",
+   "name": "Niklas"
+  },
+  "postUrl": "https://x.com/niklaslenz_ai/status/2112582117234548777",
+  "createdAt": "2026-10-20T16:30:01.000Z",
+  "durationMs": 36700,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112582117234548777/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112582117234548777/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112582117234548777"
+ },
+ {
+  "id": "2112612815471304985",
+  "title": "Voxel worlds generated on different DGX Spark setups",
+  "title_zh": "不同DGX Spark配置下的体素世界生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "niklaslenz_ai",
+   "name": "Niklas"
+  },
+  "postUrl": "https://x.com/niklaslenz_ai/status/2112612815471304985",
+  "createdAt": "2026-10-20T18:32:00.000Z",
+  "durationMs": 38000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112612815471304985/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112612815471304985/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112612815471304985"
+ },
+ {
+  "id": "2112623058586677349",
+  "title": "Local benchmark and sample video run",
+  "title_zh": "本地运行测试与示例生成视频",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "seanphan",
+   "name": "Sean Phan"
+  },
+  "postUrl": "https://x.com/seanphan/status/2112623058586677349",
+  "createdAt": "2026-10-20T19:12:42.000Z",
+  "durationMs": 45354,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112623058586677349/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112623058586677349/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112623058586677349"
  }
 ]

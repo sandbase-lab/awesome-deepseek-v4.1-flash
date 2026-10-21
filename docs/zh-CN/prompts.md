@@ -2,15 +2,15 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 23 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 27 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (11)
 - [动效](#motion-graphics) (1)
-- [游戏](#game) (3)
+- [游戏](#game) (4)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (6)
+- [测试对比](#comparison) (9)
 
 <a id="3d-scene"></a>
 
@@ -342,6 +342,57 @@ https://t.co/RiCnOHggRw
 提示词：用 Three.js 写一个可直接打开的单文件 index.html：《以撒的结合》风格俯视角双摇杆肉鸽。WASD 移动，方向键/鼠标射泪；每局随机生成 5–9 个连通房间（起点/战斗/宝箱/Boss），3 颗红心，清房开门；敌人会移动/射击，死亡概率掉落红心或金币；宝箱房必须三选一，提供至少 6 种被动（射速/弹体/弹射/移速/穿透/追踪等）；Boss 两阶段，击败通关。美术全部程序化：暗黑骨瓷风、基础几何体角色、Canvas 纹理、粒子、WebAudio 音效，无外部素材。包含红心/楼层/道具 UI、暂停/死亡/胜利界面，以及自动瞄准清图到通关的 Playwright 自测，最终零控制台错误。
 ```
 
+### 可玩赛车小游戏与SVG相机演示
+
+[@datouboshibb](https://x.com/datouboshibb/status/2111749742929883258) · 0:15 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111749742929883258/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111749742929883258?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek 又更新了！帮大家测了一下性能
+
+这次测试 demo 里有一辆能玩的赛车，还有一台用 SVG 画出来的相机、一段能直接播放的教程动效。
+
+翻了一圈各个平台上的原帖，跑分没记住几个，倒是这些玩意儿让人多停了两秒。然后就想：给它一个具体需求，最后交到我手里的到底是什么。
+
+【更新了什么】
+
+10 月 17 日，V4.1 Flash 变成 V4.1-Flash-1017，网页、App、API 同步。开发者不用改代码，还是调 deepseek-flash，价格没动。
+
+官方这次重点不在分数，在从零做游戏、做 3D 建模这种完整项目，说新版任务耗时和输出长度都短了。演示跑在 DeepSeek Harness 上。基准图也是官方自己测的，看的时候连测试条件一起看。
+
+普通人想知道值不值，其实不用盯这些。找一件边界清楚的小事丢给它，看能不能做成。
+
+赛车那段，过程比结果有意思
+
+视频里那辆车，代码来自这次留下的 deepseek-flash 会话，之后在浏览器里跑起来录的。
+
+记录里存了两版。第一版自动演示跑到 5.8 秒撞了。把这个“撞车”原样丢回去，第二版跑完 15 秒。左右换道、重新开始也都试了，重开之后分数归零。
+
+得说清楚几点：自动演示带辅助控制，画面上标了；这个会话没锁 1017，也没做新旧对比。所以它证明的是一个小项目从跑不通到跑通的过程，证明不了模型之间的强弱。
+
+想自己试，从一个文件开始
+
+发这么一段就行：
+
+“帮我做一个单文件 HTML 赛车小游戏。方向键控制左右换道，有障碍、计分、碰撞结束、重新开始。不用外部图片，不联网。先给能跑的基础版和完整代码，再说怎么保存、怎么打开。最后列三条需要我手动验的。缺信息就先说你的假设。”
+
+这段是这轮现写的，还没拿新版跑过。
+
+拿到代码存成 race.html，浏览器打开。没做过网页的，让它一步步讲怎么存。
+
+然后只验三件事：能不能打开；按键灵不灵；点重新开始，状态和分数是不是都回去了。
+
+出毛病的时候，把“我点了什么、看到什么、本来想看到什么”写清楚。比如“点了重新开始，车回起点了，分数还留着”。这种描述下一轮才接得住。
+
+同样的法子能套在活动预算、倒计时、排班表上。挑一件你每周真的会点开的东西，别挑“一个厉害的工具”。
+
+【费用】
+
+单价没变。新增的是 Search 和 Fetch，一个找网页，一个读正文，每千次成功且有结果的请求 5 元。服务端的自动搜索、抓取从北京时间 11 月 1 日 00:00 开始计费。
+
+用 Harness 的，官方建议升到 0.2.1-rc.1 以上。
+#deepseek
+```
+
 ### 原生 WebGL 从零手搓可玩的我的世界
 
 [@XingYao47854](https://x.com/XingYao47854/status/2111770397570126118) · 1:45 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111770397570126118/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111770397570126118?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
@@ -415,6 +466,16 @@ Prompt : 請為 https://t.co/i4YurTWh5e 做一條宣傳片，請盡量發揮你�
 
 ## 测试对比
 
+### SpaceX超重型助推器捕获动画对比
+
+[@adamshafizullah](https://x.com/adamshafizullah/status/2111398174548214218) · 0:22 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111398174548214218/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111398174548214218?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+🚀 DeepSeek-V4.1-Flash-1017 just dropped, so I put it head to head with Claude Opus 5.5 (High) and Claude Sonnet 5.5 (High).
+
+Same prompt for all three: a Three.js animation of the SpaceX Super Heavy booster being caught by Mechazilla, in a single HTML file.
+```
+
 ### 动态图形作品集多模型对比实测
 
 [@aGim_asf](https://x.com/aGim_asf/status/2111466670405599370) · 0:15 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111466670405599370/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111466670405599370?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
@@ -461,6 +522,21 @@ Same prompt.  Same task.
 Build a cinematic 3D animation explaining how a Tesla-style electric motor works.
 
 Is Opus in trouble?
+```
+
+### 浣熊洗碗动画生成效果对比
+
+[@benjistacked](https://x.com/benjistacked/status/2111844370731430358) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111844370731430358/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111844370731430358?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+cheapest open source model? put it to the test 🦝
+
+same prompt: a raccoon washing the dishes
+
+• DeepSeek V4.1 Flash 1017: 22 mins, $0
+• Opus 5.5: 57 mins, $10.07
+
+opus wins. deepseek still got the raccoon out the window for $0
 ```
 
 ### Canvas 螺旋星系动画生成效果对比
@@ -588,4 +664,34 @@ Las animaciones deben aportar algo a la experiencia, no ser decoración gratuita
 - Puedes utilizar librerías de animación e iconos.
 - Diseño responsive para escritorio y móvil.
 - Accesibilidad básica, navegación por teclado y soporte para `prefers-reduced-motio…
+```
+
+### 像素风橘猫骑自行车模型对比测试
+
+[@IFITALEX](https://x.com/IFITALEX/status/2112521347805143490) · 0:21 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112521347805143490/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112521347805143490?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+主流Flash模型实测第二弹～Minimax M3.1 flash耗时82分钟，产出只有DeepSeek一半，Gemini 3.8 flasH极速交付综合性能更好！
+
+同一任务交给 DeepSeek、Gemini 和 Minimax 的最新Flash模型，在各自的 Harness 中运行。单看最终代码的工程完备度与细节，DeepSeek 最为扎实，但三者展现出了截然不同的工程取向：
+
+- DeepSeek V4.1 flash 1017
+
+用时 36 分钟，实际有效输出达 25.4 万 Token（三者中最多），99.7% 的缓存命中率确实🐮，最终的输出质量最扎实，但审美不如Gemini。
+
+- Gemini 3.8 flash
+
+仅耗时 5 分半交付，总 Token 消耗只有 31 万（输出近 6 万），缓存命中率 73.19%。，算力开销极低、响应极快，非常契合高频迭代场景，最终的输出效果我最喜欢！兼顾速度与质量。
+
+- Minimax M3.1 flash
+
+运行了 1 小时 22 分钟，有效输出 12.8 万 Token（约为 Gemini 的两倍），总消耗约 1300 万 Token，缓存命中率 95.51%。在长程任务中展现出很强的探索持续性，但时间成本相对较高。
+
+使用的提示词如下：
+
+-----------分割线------------
+
+使用 Canvas 实现 16-bit 像素艺术风格的“橘猫骑自行车”侧面全身循环动画，画面居中、色彩鲜明、背景简洁，开启 image-rendering: pixelated 保持清晰像素颗粒感。输出单个独立的 HTML 网页（内联 CSS 与 JS）。
+
+-----------分割线------------
 ```
