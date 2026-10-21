@@ -8,6 +8,7 @@ Windows (Arial) system fonts, falls back to Pillow's default.
 import io
 import json
 import pathlib
+import sys
 import urllib.request
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -28,6 +29,10 @@ by_id = {v['id']: v for v in videos}
 picks = [by_id[i] for i in PINNED if i in by_id and by_id[i]['poster']]
 picks += sorted((v for v in videos if ok(v) and v['featured'] is not None and v not in picks), key=lambda v: v['featured'])
 picks += [v for v in videos if ok(v) and v not in picks]
+# A young or video-model list may have few posts in those categories: fill with any other
+# finished poster (still no comparisons) rather than leave cells dark.
+fallback = lambda v: v['poster'] and not any(w in v['title'].lower() for w in SKIP)
+picks += [v for v in videos if fallback(v) and v not in picks]
 picks = picks[:8]
 
 FONTS = {
@@ -62,6 +67,14 @@ def cover(img, w, h):
     return img.crop((left, top, left + w, top + h))
 
 
+# --if-needed (daily sync): rebuild only when the picks differ from the last build, so an
+# unchanged list keeps an unchanged banner and makes no commit.
+STAMP = ROOT / 'assets' / 'banner-picks.txt'
+wanted = ' '.join(v['id'] for v in picks)
+if '--if-needed' in sys.argv and STAMP.exists() and STAMP.read_text(encoding='utf-8').strip() == wanted:
+    print(f'Banner unchanged ({len(picks)} posters).')
+    raise SystemExit(0)
+
 canvas = Image.new('RGB', (W, H), (10, 10, 14))
 cols, rows, gap = 4, 2, 6
 cw, ch = (W - gap * (cols + 1)) // cols, (H - gap * (rows + 1)) // rows
@@ -91,4 +104,5 @@ d.text(((W - sw) / 2, band_top + 146), sub, font=sf, fill=(200, 205, 220))
 out = ROOT / 'assets' / 'banner.png'
 out.parent.mkdir(exist_ok=True)
 canvas.save(out, optimize=True)
+STAMP.write_text(wanted + '\n', encoding='utf-8', newline='\n')
 print(f'Saved {out.relative_to(ROOT).as_posix()} ({out.stat().st_size // 1024} KB) from {len(picks)} posters: {" ".join(v["id"] for v in picks)}')
