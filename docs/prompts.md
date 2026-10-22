@@ -2,13 +2,13 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-27 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+28 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
 - [3D scenes](#3d-scene) (11)
 - [Motion graphics](#motion-graphics) (1)
-- [Games](#game) (4)
+- [Games](#game) (5)
 - [Launch films](#launch-film) (2)
 - [Tests & comparisons](#comparison) (9)
 
@@ -426,6 +426,33 @@ deepseek v4.1 flash 1017测试第二弹。
 更多动物：牛、羊、鸡，加上原有猪/僵尸/苦力怕；白天游荡、掉落肉/皮革/羊毛/羽毛，带独立叫声和模型。
 附魔台：附魔 UI、青金石消耗、随机三项报价；效率（挖掘速度）、锋利（近战伤害）、时运（额外方块掉落）、抢夺（额外生物掉落），可叠 I–III。
 简单红石：拉杆 → 红石线 → 红石灯；15 格网络传播，通电变色、灯发光并提供点光；红石线按四邻接自动选择 X/Z/十字贴图。
+```
+
+### Minecraft-style 3D miniature sandbox game
+
+[@jun1228909](https://x.com/jun1228909/status/2112896112847982928) · 0:17 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112896112847982928/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112896112847982928?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Sage-A1.5 Q4_K_M お試し
+i7-14700/5090/DDR5 128GB/Windows11/dsh/200K ctx
+
+「マイクラ風3D箱庭ゲーム作って」
+・14m25s で完走後、画面が真っ暗だったためスクショを貼って１回修正依頼
+・常時 180 tok/s 前後、最大 220tok/s 超えも
+
+流石 Qwen3.6 35B A3B ベースだけあって、安定感がある
+そしてもちろんビジョンも OK😎
+
+今回のマイクラはブロックが壊せなかったり
+水平移動量が異様に小さくてほぼ動けなかったりしたけどｗ
+一応形にはなってた😃
+
+これ結構ありなのでは…？！
+Qwen3.6 35B A3B が元々優秀だったから、今回のモデルとの差分の比較が難しいところではあるけど
+
+少なくとも Qwen3.8 Flash Next や DeepSeek V4.1 Flash 1017 の Q1 や Q2 を無理に動かすよりは多くの環境でのエージェント用途の助けになりそうな感触🤔
+
+InternScience/Sage-A1.5
 ```
 
 <a id="launch-film"></a>
