@@ -2,13 +2,13 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 28 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 30 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (11)
+- [3D 场景](#3d-scene) (12)
 - [动效](#motion-graphics) (1)
-- [游戏](#game) (5)
+- [游戏](#game) (6)
 - [发布片](#launch-film) (2)
 - [测试对比](#comparison) (9)
 
@@ -279,6 +279,26 @@ DeepSeek-V4.1-Flash 1017 High + DSH 0.2.1-rc.2
 别人还在吹天价大模型怎么写诗画画，DeepSeek 已经在后台单图编译机械三维空间了。 传统 3D 互动展示页面外包动辄大几万，现在喂张图，半小时连几何体带物理动画全给你敲出来。
 ```
 
+### Three.js构建的动态体素宝塔
+
+[@Chris_Wozniczek](https://x.com/Chris_Wozniczek/status/2112652706091352471) · 1:19 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112652706091352471/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112652706091352471?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+First time running new Deepseek v4.1 flash 1017
+
+Running via Deepseek Harness
+
+Voxel Pagoda from an absolutely simple and vague prompt:
+
+"create a one html threejs voxel pagoda animated, one html file, make the most beatiful and advanced voxel pagoda you can think of"
+
+> 1 turn, 92 steps
+> 23.3M tokens
+> 233tok/s speed
+> Cache hit 99.7%
+> 39 min
+```
+
 <a id="motion-graphics"></a>
 
 ## 动效
@@ -453,6 +473,21 @@ Qwen3.6 35B A3B が元々優秀だったから、今回のモデルとの差分�
 少なくとも Qwen3.8 Flash Next や DeepSeek V4.1 Flash 1017 の Q1 や Q2 を無理に動かすよりは多くの環境でのエージェント用途の助けになりそうな感触🤔
 
 InternScience/Sage-A1.5
+```
+
+### 用DeepSeek复刻C64国际空手道游戏
+
+[@ivanfioravanti](https://x.com/ivanfioravanti/status/2113263765000986874) · 0:56 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113263765000986874/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113263765000986874?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Do you remember "International Karate" for C64?
+I've asked to DeepSeek V4.1 1017 to implement something similar using DeepSeek Harness (this is important! ⚠️ Harness makes a big difference with this model!)
+
+Very basic prompt: "Implement the old international karate game that was running on Commodore 64."
+
+0-shot! Starting point for additional changes. Quite impressive!
+
+P.S.: now trying same prompt locally on Apple M3 Ultra 512GB and with MiniMax M3.1 too!
 ```
 
 <a id="launch-film"></a>
