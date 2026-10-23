@@ -3520,24 +3520,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112662860187013546"
  },
  {
-  "id": "2112683575958995221",
-  "title": "Procedural infinite archive scene",
-  "title_zh": "程序化生成的无限档案库场景",
-  "category": "3d-scene",
-  "author": {
-   "handle": "quimedesu",
-   "name": "Ark"
-  },
-  "postUrl": "https://x.com/quimedesu/status/2112683575958995221",
-  "createdAt": "2026-10-20T23:13:10.000Z",
-  "durationMs": 22471,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112683575958995221/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112683575958995221/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112683575958995221"
- },
- {
   "id": "2112696676758491263",
   "title": "Voxel pagoda garden with falling petals and pond",
   "title_zh": "带有落瓣与池塘的体素宝塔花园",
@@ -3554,6 +3536,60 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112696676758491263/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112696676758491263"
+ },
+ {
+  "id": "2112706283555971156",
+  "title": "Three procedurally generated levels with music",
+  "title_zh": "程序化生成的三个关卡与音乐演示",
+  "category": "game",
+  "author": {
+   "handle": "quimedesu",
+   "name": "Ark"
+  },
+  "postUrl": "https://x.com/quimedesu/status/2112706283555971156",
+  "createdAt": "2026-10-21T00:43:24.000Z",
+  "durationMs": 38890,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112706283555971156/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112706283555971156/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112706283555971156"
+ },
+ {
+  "id": "2112767389058396606",
+  "title": "Interactive 3D Zen scene with particle shaders",
+  "title_zh": "东方禅意粒子着色器 3D 互动场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "GeekCatX",
+   "name": "知识猫AI实验室"
+  },
+  "postUrl": "https://x.com/GeekCatX/status/2112767389058396606",
+  "createdAt": "2026-10-21T04:46:13.000Z",
+  "durationMs": 91066,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112767389058396606/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112767389058396606/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112767389058396606"
+ },
+ {
+  "id": "2112789987196600761",
+  "title": "A castle in a desert city render",
+  "title_zh": "沙漠城市中的城堡生成渲染",
+  "category": "3d-scene",
+  "author": {
+   "handle": "Rohit_115",
+   "name": "Rohit"
+  },
+  "postUrl": "https://x.com/Rohit_115/status/2112789987196600761",
+  "createdAt": "2026-10-21T06:16:01.000Z",
+  "durationMs": 147700,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112789987196600761/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112789987196600761/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112789987196600761"
  },
  {
   "id": "2112831269113307584",
@@ -3663,6 +3699,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112897791022264814/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112897791022264814"
+ },
+ {
+  "id": "2112902787570786590",
+  "title": "Inference benchmark running in Sparkline",
+  "title_zh": "Sparkline 中的推理基准测试演示",
+  "category": "data-viz",
+  "author": {
+   "handle": "sfxnz",
+   "name": "Sufyan"
+  },
+  "postUrl": "https://x.com/sfxnz/status/2112902787570786590",
+  "createdAt": "2026-10-21T13:44:15.000Z",
+  "durationMs": 25421,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112902787570786590/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112902787570786590/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112902787570786590"
  },
  {
   "id": "2112914304060252404",
@@ -3864,6 +3918,43 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113290373329977539"
  },
  {
+  "id": "2113309219202158652",
+  "title": "Isometric flood-control game set in neighborhood",
+  "title_zh": "社区防洪等距视角游戏生成演示",
+  "category": "game",
+  "author": {
+   "handle": "BuildFastWithAI",
+   "name": "Build Fast with AI"
+  },
+  "postUrl": "https://x.com/BuildFastWithAI/status/2113309219202158652",
+  "createdAt": "2026-10-22T16:39:15.000Z",
+  "durationMs": 164833,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113309219202158652/video.mp4",
+  "promptShared": true,
+  "promptText": "DeepSeek V4 is insane, tested it on the Same prompt across 4 models: build an isometric flood-control game set in a Filipino neighborhood. Zero-shot, max reasoning, one run each.\n\nV4.1 Flash 1017 genuinely surprised us. Rich colors, clean visuals, smooth camera, and an excellent tutorial.\n\nIt feels like a more polished GPT-6 Astra output.",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113309219202158652/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113309219202158652"
+ },
+ {
+  "id": "2113342060887433562",
+  "title": "One-shot neon city generated on DGX Sparks",
+  "title_zh": "DGX Sparks 上单次生成的霓虹城市",
+  "category": "3d-scene",
+  "author": {
+   "handle": "calvarado2004",
+   "name": "Carlos Alvarado"
+  },
+  "postUrl": "https://x.com/calvarado2004/status/2113342060887433562",
+  "createdAt": "2026-10-22T18:49:45.000Z",
+  "durationMs": 62666,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113342060887433562/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113342060887433562/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113342060887433562"
+ },
+ {
   "id": "2113343755184926791",
   "title": "Interactive 3D medieval library built with Three.js",
   "title_zh": "基于Three.js的交互式3D中世纪图书馆",
@@ -3898,5 +3989,114 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113363382808023135/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113363382808023135"
+ },
+ {
+  "id": "2113446055589056718",
+  "title": "Provider benchmark comparison on DeepSeek-V4.1",
+  "title_zh": "DeepSeek-V4.1 不同服务商基准测试对比",
+  "category": "comparison",
+  "author": {
+   "handle": "nothingto12",
+   "name": "Naz"
+  },
+  "postUrl": "https://x.com/nothingto12/status/2113446055589056718",
+  "createdAt": "2026-10-23T01:43:00.000Z",
+  "durationMs": 15061,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113446055589056718/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113446055589056718/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113446055589056718"
+ },
+ {
+  "id": "2113527245918654911",
+  "title": "Provider performance comparison on DeepSeek V4.1 Flash",
+  "title_zh": "DeepSeek V4.1 Flash 服务商推理性能对比",
+  "category": "comparison",
+  "author": {
+   "handle": "nothingto12",
+   "name": "Naz"
+  },
+  "postUrl": "https://x.com/nothingto12/status/2113527245918654911",
+  "createdAt": "2026-10-23T07:05:37.000Z",
+  "durationMs": 20000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113527245918654911/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113527245918654911/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113527245918654911"
+ },
+ {
+  "id": "2113529870022255061",
+  "title": "Animated riding motion generated from an image",
+  "title_zh": "根据静态图片生成的骑行运动动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "bebuu_ai",
+   "name": "bebu"
+  },
+  "postUrl": "https://x.com/bebuu_ai/status/2113529870022255061",
+  "createdAt": "2026-10-23T07:16:03.000Z",
+  "durationMs": 6408,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113529870022255061/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113529870022255061/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113529870022255061"
+ },
+ {
+  "id": "2113605044289650733",
+  "title": "Three.js electric motor animation model comparison",
+  "title_zh": "Three.js 电机动画生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "EvoLinkAi",
+   "name": "EvoLink.ai"
+  },
+  "postUrl": "https://x.com/EvoLinkAi/status/2113605044289650733",
+  "createdAt": "2026-10-23T12:14:46.000Z",
+  "durationMs": 40000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113605044289650733/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113605044289650733/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113605044289650733"
+ },
+ {
+  "id": "2113623569691517105",
+  "title": "Head-to-head comparison of 3D bedroom designs",
+  "title_zh": "两款模型 3D 卧室生成效果对比评测",
+  "category": "comparison",
+  "author": {
+   "handle": "BuildFastWithAI",
+   "name": "Build Fast with AI"
+  },
+  "postUrl": "https://x.com/BuildFastWithAI/status/2113623569691517105",
+  "createdAt": "2026-10-23T13:28:22.000Z",
+  "durationMs": 24600,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113623569691517105/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113623569691517105/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113623569691517105"
+ },
+ {
+  "id": "2113707025066492154",
+  "title": "Comparison of 3D campfire code generation",
+  "title_zh": "纯代码 3D 营火生成模型对比测试",
+  "category": "comparison",
+  "author": {
+   "handle": "EvoLinkAi",
+   "name": "EvoLink.ai"
+  },
+  "postUrl": "https://x.com/EvoLinkAi/status/2113707025066492154",
+  "createdAt": "2026-10-23T19:00:00.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113707025066492154/video.mp4",
+  "promptShared": true,
+  "promptText": "🔥DeepSeek V4.1 Flash 1017 beats MiniMax M3.1 Flash in this code-only 3D campfire test.\n\nDeepSeek V4.1 Flash 1017\nEst. cost: $0.33 | Time: 3h 12m 35s\n\nMiniMax M3.1 Flash\nEst. cost: $0.51 | Time: ~3h 52m\n\nBoth via EvoLink.\n\nPrompt below👇",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113707025066492154/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113707025066492154"
  }
 ]

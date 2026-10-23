@@ -2,15 +2,15 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-30 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+32 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
 - [3D scenes](#3d-scene) (12)
 - [Motion graphics](#motion-graphics) (1)
-- [Games](#game) (6)
+- [Games](#game) (7)
 - [Launch films](#launch-film) (2)
-- [Tests & comparisons](#comparison) (9)
+- [Tests & comparisons](#comparison) (10)
 
 <a id="3d-scene"></a>
 
@@ -490,6 +490,18 @@ Very basic prompt: "Implement the old international karate game that was running
 P.S.: now trying same prompt locally on Apple M3 Ultra 512GB and with MiniMax M3.1 too!
 ```
 
+### Isometric flood-control game set in neighborhood
+
+[@BuildFastWithAI](https://x.com/BuildFastWithAI/status/2113309219202158652) · 2:45 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113309219202158652/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113309219202158652?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4 is insane, tested it on the Same prompt across 4 models: build an isometric flood-control game set in a Filipino neighborhood. Zero-shot, max reasoning, one run each.
+
+V4.1 Flash 1017 genuinely surprised us. Rich colors, clean visuals, smooth camera, and an excellent tutorial.
+
+It feels like a more polished GPT-6 Astra output.
+```
+
 <a id="launch-film"></a>
 
 ## Launch films
@@ -756,4 +768,22 @@ Las animaciones deben aportar algo a la experiencia, no ser decoración gratuita
 使用 Canvas 实现 16-bit 像素艺术风格的“橘猫骑自行车”侧面全身循环动画，画面居中、色彩鲜明、背景简洁，开启 image-rendering: pixelated 保持清晰像素颗粒感。输出单个独立的 HTML 网页（内联 CSS 与 JS）。
 
 -----------分割线------------
+```
+
+### Comparison of 3D campfire code generation
+
+[@EvoLinkAi](https://x.com/EvoLinkAi/status/2113707025066492154) · 0:30 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113707025066492154/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113707025066492154?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+🔥DeepSeek V4.1 Flash 1017 beats MiniMax M3.1 Flash in this code-only 3D campfire test.
+
+DeepSeek V4.1 Flash 1017
+Est. cost: $0.33 | Time: 3h 12m 35s
+
+MiniMax M3.1 Flash
+Est. cost: $0.51 | Time: ~3h 52m
+
+Both via EvoLink.
+
+Prompt below👇
 ```

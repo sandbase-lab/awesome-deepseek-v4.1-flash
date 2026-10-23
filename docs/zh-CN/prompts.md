@@ -2,15 +2,15 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 30 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 32 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (12)
 - [动效](#motion-graphics) (1)
-- [游戏](#game) (6)
+- [游戏](#game) (7)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (9)
+- [测试对比](#comparison) (10)
 
 <a id="3d-scene"></a>
 
@@ -490,6 +490,18 @@ Very basic prompt: "Implement the old international karate game that was running
 P.S.: now trying same prompt locally on Apple M3 Ultra 512GB and with MiniMax M3.1 too!
 ```
 
+### 社区防洪等距视角游戏生成演示
+
+[@BuildFastWithAI](https://x.com/BuildFastWithAI/status/2113309219202158652) · 2:45 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113309219202158652/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113309219202158652?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4 is insane, tested it on the Same prompt across 4 models: build an isometric flood-control game set in a Filipino neighborhood. Zero-shot, max reasoning, one run each.
+
+V4.1 Flash 1017 genuinely surprised us. Rich colors, clean visuals, smooth camera, and an excellent tutorial.
+
+It feels like a more polished GPT-6 Astra output.
+```
+
 <a id="launch-film"></a>
 
 ## 发布片
@@ -756,4 +768,22 @@ Las animaciones deben aportar algo a la experiencia, no ser decoración gratuita
 使用 Canvas 实现 16-bit 像素艺术风格的“橘猫骑自行车”侧面全身循环动画，画面居中、色彩鲜明、背景简洁，开启 image-rendering: pixelated 保持清晰像素颗粒感。输出单个独立的 HTML 网页（内联 CSS 与 JS）。
 
 -----------分割线------------
+```
+
+### 纯代码 3D 营火生成模型对比测试
+
+[@EvoLinkAi](https://x.com/EvoLinkAi/status/2113707025066492154) · 0:30 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113707025066492154/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113707025066492154?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+🔥DeepSeek V4.1 Flash 1017 beats MiniMax M3.1 Flash in this code-only 3D campfire test.
+
+DeepSeek V4.1 Flash 1017
+Est. cost: $0.33 | Time: 3h 12m 35s
+
+MiniMax M3.1 Flash
+Est. cost: $0.51 | Time: ~3h 52m
+
+Both via EvoLink.
+
+Prompt below👇
 ```
