@@ -2,7 +2,7 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 32 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 33 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
@@ -10,7 +10,7 @@
 - [动效](#motion-graphics) (1)
 - [游戏](#game) (7)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (10)
+- [测试对比](#comparison) (11)
 
 <a id="3d-scene"></a>
 
@@ -786,4 +786,24 @@ Est. cost: $0.51 | Time: ~3h 52m
 Both via EvoLink.
 
 Prompt below👇
+```
+
+### 宝丽来相机3D解构模型生成对比
+
+[@IFITALEX](https://x.com/IFITALEX/status/2113989179382350015) · 0:22 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113989179382350015/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113989179382350015?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+卧槽，Kimi K3.1 Pro实测甚至被Deepseek V4.1 flash 1017完爆！
+
+有博主说Kimi K3.1 Pro不如Deepseek V4.1 flash 1017我还不信，实际体验下来还真是！
+
+我使用相同的提示词，分别在Kimi 网页版和DSH中生成宝丽来相机的解构版本，Kimi K3.1 Pro不知道是不是因为harness的原因，给了我一坨.....
+
+而Deepseek V4.1 flash 101完美实现任务要求！
+
+以下是我使用的提示词：
+
+------分割线------
+使用colorfigures风格，制作一台宝丽来 Polaroid Now+ (Gen 3) 拍立得3D相机模型，输出单html网页。要求实现以下能力：装入相纸盒、切换对焦距离、按下红色快门触发闪光并吐出相纸——在透视模式下展示双镜头自动对焦切换、内部反光镜折光光路，以及滚轴挤压药水包推出相纸的机械过程。
+------分割线------
 ```

@@ -2,7 +2,7 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-32 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+33 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
@@ -10,7 +10,7 @@ Each entry quotes the creator's post as published on X, where the prompt is shar
 - [Motion graphics](#motion-graphics) (1)
 - [Games](#game) (7)
 - [Launch films](#launch-film) (2)
-- [Tests & comparisons](#comparison) (10)
+- [Tests & comparisons](#comparison) (11)
 
 <a id="3d-scene"></a>
 
@@ -786,4 +786,24 @@ Est. cost: $0.51 | Time: ~3h 52m
 Both via EvoLink.
 
 Prompt below👇
+```
+
+### Deconstructed 3D Polaroid camera generation comparison
+
+[@IFITALEX](https://x.com/IFITALEX/status/2113989179382350015) · 0:22 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113989179382350015/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113989179382350015?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+卧槽，Kimi K3.1 Pro实测甚至被Deepseek V4.1 flash 1017完爆！
+
+有博主说Kimi K3.1 Pro不如Deepseek V4.1 flash 1017我还不信，实际体验下来还真是！
+
+我使用相同的提示词，分别在Kimi 网页版和DSH中生成宝丽来相机的解构版本，Kimi K3.1 Pro不知道是不是因为harness的原因，给了我一坨.....
+
+而Deepseek V4.1 flash 101完美实现任务要求！
+
+以下是我使用的提示词：
+
+------分割线------
+使用colorfigures风格，制作一台宝丽来 Polaroid Now+ (Gen 3) 拍立得3D相机模型，输出单html网页。要求实现以下能力：装入相纸盒、切换对焦距离、按下红色快门触发闪光并吐出相纸——在透视模式下展示双镜头自动对焦切换、内部反光镜折光光路，以及滚轴挤压药水包推出相纸的机械过程。
+------分割线------
 ```
