@@ -4027,24 +4027,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113660518439456831"
  },
  {
-  "id": "2113691934149533781",
-  "title": "Inference benchmark of DeepSeek V4.1 on hardware",
-  "title_zh": "RTX 5090 运行 DeepSeek V4.1 基准测试",
-  "category": "data-viz",
-  "author": {
-   "handle": "niklaslenz_ai",
-   "name": "Niklas"
-  },
-  "postUrl": "https://x.com/niklaslenz_ai/status/2113691934149533781",
-  "createdAt": "2026-10-23T18:00:02.000Z",
-  "durationMs": 22650,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113691934149533781/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113691934149533781/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113691934149533781"
- },
- {
   "id": "2113698217560862949",
   "title": "Steampunk voxel airship dock generated in 3D",
   "title_zh": "AI 生成的蒸汽朋克体素飞艇码头",
@@ -4335,6 +4317,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114120889629311075"
  },
  {
+  "id": "2114145338256998843",
+  "title": "Candy Bear 3D Model Generation Comparison",
+  "title_zh": "糖果小熊 3D 模型生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "leo114119",
+   "name": "Leo · Building w/ AI"
+  },
+  "postUrl": "https://x.com/leo114119/status/2114145338256998843",
+  "createdAt": "2026-10-25T00:01:42.000Z",
+  "durationMs": 48341,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114145338256998843/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114145338256998843/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114145338256998843"
+ },
+ {
   "id": "2114194687959740679",
   "title": "Personal intro and media kit Remotion animations",
   "title_zh": "Remotion制作的个人主页与媒体包动画",
@@ -4353,6 +4353,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114194687959740679"
  },
  {
+  "id": "2114356555864850705",
+  "title": "DeepSeek versus Kimi showreels comparison",
+  "title_zh": "DeepSeek 对比 Kimi 宣传片展示",
+  "category": "comparison",
+  "author": {
+   "handle": "EvoLinkAi",
+   "name": "EvoLink.ai"
+  },
+  "postUrl": "https://x.com/EvoLinkAi/status/2114356555864850705",
+  "createdAt": "2026-10-25T14:01:00.000Z",
+  "durationMs": 15000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114356555864850705/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114356555864850705/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114356555864850705"
+ },
+ {
   "id": "2114458953329639485",
   "title": "Comparing models coding a terminal Doom game",
   "title_zh": "模型对比编写终端Doom游戏",
@@ -4369,5 +4387,77 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114458953329639485/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114458953329639485"
+ },
+ {
+  "id": "2114635646375526756",
+  "title": "DeepSeek V4.1 Flash Benchmark on Mac Studio",
+  "title_zh": "DeepSeek V4.1 Flash 在 Mac Studio 上的基准测试",
+  "category": "data-viz",
+  "author": {
+   "handle": "niklaslenz_ai",
+   "name": "Niklas"
+  },
+  "postUrl": "https://x.com/niklaslenz_ai/status/2114635646375526756",
+  "createdAt": "2026-10-26T08:30:00.000Z",
+  "durationMs": 57200,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114635646375526756/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114635646375526756/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114635646375526756"
+ },
+ {
+  "id": "2114655559106572681",
+  "title": "Rocket test in Codewhale",
+  "title_zh": "Codewhale 中的火箭测试",
+  "category": "3d-scene",
+  "author": {
+   "handle": "goodhunt",
+   "name": "Hunter Bown"
+  },
+  "postUrl": "https://x.com/goodhunt/status/2114655559106572681",
+  "createdAt": "2026-10-26T09:49:08.000Z",
+  "durationMs": 46000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114655559106572681/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114655559106572681/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114655559106572681"
+ },
+ {
+  "id": "2114722860447182997",
+  "title": "Pelican riding a bicycle video remix",
+  "title_zh": "鹈鹕踩单车重制版视频",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "mspd4100",
+   "name": "鸡骑猫"
+  },
+  "postUrl": "https://x.com/mspd4100/status/2114722860447182997",
+  "createdAt": "2026-10-26T14:16:34.000Z",
+  "durationMs": 22033,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114722860447182997/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114722860447182997/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114722860447182997"
+ },
+ {
+  "id": "2114743342793900183",
+  "title": "Castle on a sea cliff storm comparison",
+  "title_zh": "风暴海崖城堡生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "buzzhive_ai",
+   "name": "Buzz"
+  },
+  "postUrl": "https://x.com/buzzhive_ai/status/2114743342793900183",
+  "createdAt": "2026-10-26T15:37:57.000Z",
+  "durationMs": 15000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114743342793900183/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114743342793900183/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114743342793900183"
  }
 ]
