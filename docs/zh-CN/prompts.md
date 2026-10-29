@@ -2,13 +2,13 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 33 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 34 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (12)
 - [动效](#motion-graphics) (1)
-- [游戏](#game) (7)
+- [游戏](#game) (8)
 - [发布片](#launch-film) (2)
 - [测试对比](#comparison) (11)
 
@@ -500,6 +500,36 @@ DeepSeek V4 is insane, tested it on the Same prompt across 4 models: build an is
 V4.1 Flash 1017 genuinely surprised us. Rich colors, clean visuals, smooth camera, and an excellent tutorial.
 
 It feels like a more polished GPT-6 Astra output.
+```
+
+### 类我的世界风格的3D微缩箱庭游戏
+
+[@jun1228909](https://x.com/jun1228909/status/2114572693899186181) · 0:19 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114572693899186181/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114572693899186181?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+i7-14700/5090/DDR5 128GB/Windows11/dsh
+Nanbeige4.3-33B お試し
+
+⚠️公式も unsloth も現時点では量子化モデルを提供していなかったので、私は存じ上げなかった配布元の AtomicChat/Nanbeige4.3-33B-GGUF を自己責任で走らせた参考メモ
+
+「マイクラ風3D箱庭ゲーム作って」
+実行時間：記録なし（実装終盤に無限ループ発生）
+64K コンテキストでデコード 40-60tok/s 
+
+5090 でも Q4 を動かすのはやっと😓
+・サイズ感としては 128K コンテキストだと 5090 に乗り切らず 10tok/s 程
+・64K コンテキストに落としてやっとまともに（～60tok/s）動き出した
+
+しかし、実装終盤に無限ループが発生してしまった😞
+
+実装はほぼ済んでいるように見えたので、実験としてはここで中断して参考までに Sol に最低限ゲームが起動できるように微修正してもらったのが添付の動画
+
+なかなか健闘している気もするけど、少なくとも本家や大手が量子化モデルを出すのを待って初めて試すで十分でしたな🥱
+
+あと、最近の MoE ランナーブームで甘やかされた（？）我々としてはこのサイズの Dense を常用するのは厳しいものがあると思うｗ
+
+VRAM 要求がでかすぎるし、ビジョンも無いし
+余程の使い道が無い限り Qwen3.8 FN とか Deepseek 1017 でいいやってなるね
 ```
 
 <a id="launch-film"></a>

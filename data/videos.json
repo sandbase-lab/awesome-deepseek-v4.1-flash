@@ -212,7 +212,7 @@
   "durationMs": 51407,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111401362713968942/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111401362713968942/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111401362713968942"
  },
@@ -322,7 +322,7 @@
   "durationMs": 150464,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111416511932117424/video.mp4",
   "promptShared": false,
-  "featured": 4,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111416511932117424/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111416511932117424"
  },
@@ -778,7 +778,7 @@
   "durationMs": 10000,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111454840337600839/video.mp4",
   "promptShared": false,
-  "featured": 5,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111454840337600839/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111454840337600839"
  },
@@ -887,7 +887,7 @@
   "durationMs": 34760,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111464046113493422/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": 4,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111464046113493422/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111464046113493422"
  },
@@ -3225,7 +3225,7 @@
   "durationMs": 48000,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112464983002906928/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": 7,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112464983002906928/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112464983002906928"
  },
@@ -4327,7 +4327,7 @@
   },
   "postUrl": "https://x.com/leo114119/status/2114145338256998843",
   "createdAt": "2026-10-25T00:01:42.000Z",
-  "durationMs": 48341,
+  "durationMs": null,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114145338256998843/video.mp4",
   "promptShared": false,
   "featured": null,
@@ -4348,7 +4348,7 @@
   "durationMs": 15166,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114194687959740679/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114194687959740679/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114194687959740679"
  },
@@ -4371,6 +4371,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114356555864850705"
  },
  {
+  "id": "2114364317089034693",
+  "title": "Digest bot sending morning news and app creation",
+  "title_zh": "定时发送早间资讯摘要并创建应用的机器人",
+  "category": "ui-demo",
+  "author": {
+   "handle": "fayazara",
+   "name": "Fayaz Ahmed"
+  },
+  "postUrl": "https://x.com/fayazara/status/2114364317089034693",
+  "createdAt": "2026-10-25T14:31:50.000Z",
+  "durationMs": 85100,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114364317089034693/video.mp4",
+  "promptShared": false,
+  "featured": 6,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114364317089034693/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114364317089034693"
+ },
+ {
   "id": "2114458953329639485",
   "title": "Comparing models coding a terminal Doom game",
   "title_zh": "模型对比编写终端Doom游戏",
@@ -4387,6 +4405,25 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114458953329639485/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114458953329639485"
+ },
+ {
+  "id": "2114572693899186181",
+  "title": "Minecraft style 3D sandbox game",
+  "title_zh": "类我的世界风格的3D微缩箱庭游戏",
+  "category": "game",
+  "author": {
+   "handle": "jun1228909",
+   "name": "jun"
+  },
+  "postUrl": "https://x.com/jun1228909/status/2114572693899186181",
+  "createdAt": "2026-10-26T04:19:51.000Z",
+  "durationMs": 19029,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114572693899186181/video.mp4",
+  "promptShared": true,
+  "promptText": "i7-14700/5090/DDR5 128GB/Windows11/dsh\nNanbeige4.3-33B お試し\n\n⚠️公式も unsloth も現時点では量子化モデルを提供していなかったので、私は存じ上げなかった配布元の AtomicChat/Nanbeige4.3-33B-GGUF を自己責任で走らせた参考メモ\n\n「マイクラ風3D箱庭ゲーム作って」\n実行時間：記録なし（実装終盤に無限ループ発生）\n64K コンテキストでデコード 40-60tok/s \n\n5090 でも Q4 を動かすのはやっと😓\n・サイズ感としては 128K コンテキストだと 5090 に乗り切らず 10tok/s 程\n・64K コンテキストに落としてやっとまともに（～60tok/s）動き出した\n\nしかし、実装終盤に無限ループが発生してしまった😞\n\n実装はほぼ済んでいるように見えたので、実験としてはここで中断して参考までに Sol に最低限ゲームが起動できるように微修正してもらったのが添付の動画\n\nなかなか健闘している気もするけど、少なくとも本家や大手が量子化モデルを出すのを待って初めて試すで十分でしたな🥱\n\nあと、最近の MoE ランナーブームで甘やかされた（？）我々としてはこのサイズの Dense を常用するのは厳しいものがあると思うｗ\n\nVRAM 要求がでかすぎるし、ビジョンも無いし\n余程の使い道が無い限り Qwen3.8 FN とか Deepseek 1017 でいいやってなるね",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114572693899186181/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114572693899186181"
  },
  {
   "id": "2114635646375526756",
@@ -4459,5 +4496,149 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114743342793900183/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114743342793900183"
+ },
+ {
+  "id": "2114831026883317972",
+  "title": "Highland express animation comparison between AI models",
+  "title_zh": "两款AI模型的高地特快动画生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Chris_Wozniczek",
+   "name": "Chris W"
+  },
+  "postUrl": "https://x.com/Chris_Wozniczek/status/2114831026883317972",
+  "createdAt": "2026-10-26T21:26:23.000Z",
+  "durationMs": 151061,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114831026883317972/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114831026883317972/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114831026883317972"
+ },
+ {
+  "id": "2115035083694555148",
+  "title": "Grim reaper animation rendered by quantized model",
+  "title_zh": "量化模型渲染的死神动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "Beamsters1",
+   "name": "Beamsters"
+  },
+  "postUrl": "https://x.com/Beamsters1/status/2115035083694555148",
+  "createdAt": "2026-10-27T10:57:14.000Z",
+  "durationMs": 21035,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115035083694555148/video.mp4",
+  "promptShared": false,
+  "featured": 2,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115035083694555148/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115035083694555148"
+ },
+ {
+  "id": "2115132404549792068",
+  "title": "Comparison of models generating Nokia snake game",
+  "title_zh": "两款模型生成诺基亚贪吃蛇游戏的代码对比",
+  "category": "comparison",
+  "author": {
+   "handle": "entrptaher",
+   "name": "Taher"
+  },
+  "postUrl": "https://x.com/entrptaher/status/2115132404549792068",
+  "createdAt": "2026-10-27T17:23:57.000Z",
+  "durationMs": 33000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115132404549792068/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115132404549792068/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115132404549792068"
+ },
+ {
+  "id": "2115144517729050755",
+  "title": "Local AI inference benchmark and stats monitor",
+  "title_zh": "本地AI推理速度基准与状态监控面板",
+  "category": "ui-demo",
+  "author": {
+   "handle": "norsyx",
+   "name": "Norsyx"
+  },
+  "postUrl": "https://x.com/norsyx/status/2115144517729050755",
+  "createdAt": "2026-10-27T18:12:05.000Z",
+  "durationMs": 22630,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115144517729050755/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115144517729050755/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115144517729050755"
+ },
+ {
+  "id": "2115336591245987956",
+  "title": "Voxel amusement park on a floating island",
+  "title_zh": "浮空岛上的体素风移轴游乐场微缩模型",
+  "category": "3d-scene",
+  "author": {
+   "handle": "cfenghub",
+   "name": "CF长风"
+  },
+  "postUrl": "https://x.com/cfenghub/status/2115336591245987956",
+  "createdAt": "2026-10-28T06:55:19.000Z",
+  "durationMs": 47500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115336591245987956/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115336591245987956/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115336591245987956"
+ },
+ {
+  "id": "2115447988877418496",
+  "title": "Matrix tesseract 90s style demoscene animation",
+  "title_zh": "90年代风格的矩阵超立方体演示场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "axitek",
+   "name": "Axitek"
+  },
+  "postUrl": "https://x.com/axitek/status/2115447988877418496",
+  "createdAt": "2026-10-28T14:17:58.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115447988877418496/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115447988877418496/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115447988877418496"
+ },
+ {
+  "id": "2115481653045076373",
+  "title": "Codebase exploration and architecture mapping tool",
+  "title_zh": "开源代码库探索与架构映射工具演示",
+  "category": "ui-demo",
+  "author": {
+   "handle": "Astrodevil_",
+   "name": "Mr. Ånand"
+  },
+  "postUrl": "https://x.com/Astrodevil_/status/2115481653045076373",
+  "createdAt": "2026-10-28T16:31:44.000Z",
+  "durationMs": 80733,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115481653045076373/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115481653045076373/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115481653045076373"
+ },
+ {
+  "id": "2115485768348995998",
+  "title": "Local generation test with DeepSeek-V4.1-Flash",
+  "title_zh": "本地运行DeepSeek-V4.1-Flash生成的测试效果",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "sfxnz",
+   "name": "Sufyan"
+  },
+  "postUrl": "https://x.com/sfxnz/status/2115485768348995998",
+  "createdAt": "2026-10-28T16:48:05.000Z",
+  "durationMs": 7805,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115485768348995998/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115485768348995998/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115485768348995998"
  }
 ]

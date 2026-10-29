@@ -2,13 +2,13 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-33 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+34 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
 - [3D scenes](#3d-scene) (12)
 - [Motion graphics](#motion-graphics) (1)
-- [Games](#game) (7)
+- [Games](#game) (8)
 - [Launch films](#launch-film) (2)
 - [Tests & comparisons](#comparison) (11)
 
@@ -500,6 +500,36 @@ DeepSeek V4 is insane, tested it on the Same prompt across 4 models: build an is
 V4.1 Flash 1017 genuinely surprised us. Rich colors, clean visuals, smooth camera, and an excellent tutorial.
 
 It feels like a more polished GPT-6 Astra output.
+```
+
+### Minecraft style 3D sandbox game
+
+[@jun1228909](https://x.com/jun1228909/status/2114572693899186181) · 0:19 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114572693899186181/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114572693899186181?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+i7-14700/5090/DDR5 128GB/Windows11/dsh
+Nanbeige4.3-33B お試し
+
+⚠️公式も unsloth も現時点では量子化モデルを提供していなかったので、私は存じ上げなかった配布元の AtomicChat/Nanbeige4.3-33B-GGUF を自己責任で走らせた参考メモ
+
+「マイクラ風3D箱庭ゲーム作って」
+実行時間：記録なし（実装終盤に無限ループ発生）
+64K コンテキストでデコード 40-60tok/s 
+
+5090 でも Q4 を動かすのはやっと😓
+・サイズ感としては 128K コンテキストだと 5090 に乗り切らず 10tok/s 程
+・64K コンテキストに落としてやっとまともに（～60tok/s）動き出した
+
+しかし、実装終盤に無限ループが発生してしまった😞
+
+実装はほぼ済んでいるように見えたので、実験としてはここで中断して参考までに Sol に最低限ゲームが起動できるように微修正してもらったのが添付の動画
+
+なかなか健闘している気もするけど、少なくとも本家や大手が量子化モデルを出すのを待って初めて試すで十分でしたな🥱
+
+あと、最近の MoE ランナーブームで甘やかされた（？）我々としてはこのサイズの Dense を常用するのは厳しいものがあると思うｗ
+
+VRAM 要求がでかすぎるし、ビジョンも無いし
+余程の使い道が無い限り Qwen3.8 FN とか Deepseek 1017 でいいやってなるね
 ```
 
 <a id="launch-film"></a>
