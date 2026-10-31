@@ -2,7 +2,7 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 34 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 37 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
@@ -10,7 +10,7 @@
 - [动效](#motion-graphics) (1)
 - [游戏](#game) (8)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (11)
+- [测试对比](#comparison) (14)
 
 <a id="3d-scene"></a>
 
@@ -836,4 +836,68 @@ Prompt below👇
 ------分割线------
 使用colorfigures风格，制作一台宝丽来 Polaroid Now+ (Gen 3) 拍立得3D相机模型，输出单html网页。要求实现以下能力：装入相纸盒、切换对焦距离、按下红色快门触发闪光并吐出相纸——在透视模式下展示双镜头自动对焦切换、内部反光镜折光光路，以及滚轴挤压药水包推出相纸的机械过程。
 ------分割线------
+```
+
+### 三模型生成缆车雪山浮空岛对比
+
+[@olezhavich](https://x.com/olezhavich/status/2116143918890758198) · 0:19 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116143918890758198/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116143918890758198?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+$1.92 vs $8.72. The cheapest model built the biggest ski resort 🚡
+
+Same prompt, one try each: "Cable Valley", a snowy floating island with a working cable car.
+
+• DeepSeek V4.1 Flash 1017: ~1h | $1.92
+• GPT-6 Astra: 19m 12s | $8.72
+• Kimi K3.1 Pro: 41m 37s | $4.16
+
+DeepSeek went all in: a dense pine forest, several lift towers, a whole village, floating rocks and a live stats panel. Slowest by far, but look at that density.
+
+Kimi built the coziest one: a real peak, gondolas gliding up, a lodge on top.
+
+Astra was the fastest and the most expensive, yet its island feels the emptiest and the flattest.
+
+4.5x cheaper and way more detailed. Which one would you ride?
+```
+
+### 四模型四冲程发动机剖面动画对比
+
+[@EnvolDev](https://x.com/EnvolDev/status/2116189885723734309) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116189885723734309/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116189885723734309?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4.1 Flash 1017 just embarrassed everyone. 🤯
+Same prompt: a working four-stroke engine cutaway.
+
+DeepSeek V4.1 Flash 1017: $0.36 · 1h 54m 16s 
+Claude Opus 5.5: $21.81 · 2h 00m 13s 
+GPT-6.1 Terra: $0.43 · 9m 09s 
+GPT-6 Astra: $7.33 · 54m 33s
+
+Opus got it right. No surprise there.
+
+But DeepSeek? As good as Claude, maybe the most beautiful one of the four… for 36 cents.
+
+That's 60x cheaper than Opus. This is nuts.
+
+Yes, Terra is fast. But costing more than DeepSeek? That's a joke. 😂
+
+Which one wins for you? 👇
+```
+
+### 新世界七大奇迹交互式 3D 漫游对比
+
+[@superalesha](https://x.com/superalesha/status/2116313449596957104) · 0:41 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116313449596957104/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116313449596957104?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Gave MiniMax M3.1 Flash and DeepSeek V4.1 Flash 1017 the same prompt:
+
+build an interactive 3D tour of the 7 New Wonders in one HTML file.
+
+MiniMax built the more complete tour. The locations are easier to recognize, and the weather and lighting controls work in the demo.
+DeepSeek has much rougher models, and its Chichén Itzá scene goes blank.
+
+Input: $0.15 per million tokens.
+Output: $0.60 per million tokens.
+
+Not a benchmark, just one test, but a useful one.
 ```
