@@ -4824,6 +4824,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116189885723734309"
  },
  {
+  "id": "2116255195923644467",
+  "title": "Helicopter rotor swashplate mechanism model comparison",
+  "title_zh": "直升机旋翼斜盘机制模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Jomolos",
+   "name": "Can Matrix"
+  },
+  "postUrl": "https://x.com/Jomolos/status/2116255195923644467",
+  "createdAt": "2026-10-30T19:45:31.000Z",
+  "durationMs": 20000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116255195923644467/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116255195923644467/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116255195923644467"
+ },
+ {
   "id": "2116308982793146540",
   "title": "Centaur running SVG animation model comparison",
   "title_zh": "半人马奔跑 SVG 动画模型效果对比",
@@ -4859,5 +4877,23 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116313449596957104/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116313449596957104"
+ },
+ {
+  "id": "2116420171221045279",
+  "title": "GLM 5.3 full benchmark demo",
+  "title_zh": "GLM 5.3 完整版性能测试演示",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "nunomo1",
+   "name": "nunomo"
+  },
+  "postUrl": "https://x.com/nunomo1/status/2116420171221045279",
+  "createdAt": "2026-10-31T06:41:04.000Z",
+  "durationMs": 27090,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116420171221045279/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116420171221045279/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116420171221045279"
  }
 ]
