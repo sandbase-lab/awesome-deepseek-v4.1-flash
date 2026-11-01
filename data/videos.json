@@ -2470,24 +2470,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111876302714044632"
  },
  {
-  "id": "2111882446094692823",
-  "title": "Comparing single-call versus harness generation",
-  "title_zh": "单次调用与带 Harness 生成效果对比",
-  "category": "comparison",
-  "author": {
-   "handle": "ItsmeAjayKV",
-   "name": "AJ"
-  },
-  "postUrl": "https://x.com/ItsmeAjayKV/status/2111882446094692823",
-  "createdAt": "2026-10-18T18:09:46.000Z",
-  "durationMs": 33685,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111882446094692823/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111882446094692823/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111882446094692823"
- },
- {
   "id": "2111893173933130039",
   "title": "DeepSeek V4.1 Flash running on M3 Ultra",
   "title_zh": "DeepSeek V4.1 Flash在M3 Ultra运行演示",
@@ -4895,5 +4877,96 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116420171221045279/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116420171221045279"
+ },
+ {
+  "id": "2116666922016313626",
+  "title": "Comparison of 3D voxel frog under mushroom",
+  "title_zh": "蘑菇伞下青蛙3D体素模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "filicroval",
+   "name": "filipe"
+  },
+  "postUrl": "https://x.com/filicroval/status/2116666922016313626",
+  "createdAt": "2026-10-31T23:01:34.000Z",
+  "durationMs": 35549,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116666922016313626/video.mp4",
+  "promptShared": true,
+  "promptText": "deepseek v4.1 flash 1017 vs glm-5.3 flash\n\nsame prompt: “Make a 3D voxel world of a frog sitting under a giant mushroom umbrella during a rainstorm”\n\nglm was a bit lazy. deepseek nailed the scenery and the frog and was cheaper",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116666922016313626/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116666922016313626"
+ },
+ {
+  "id": "2116752713128268279",
+  "title": "Procedural 3D construction of Pokemon Pallet Town",
+  "title_zh": "程序化生成的宝可梦真新镇3D建筑",
+  "category": "3d-scene",
+  "author": {
+   "handle": "ItsmeAjayKV",
+   "name": "AJ"
+  },
+  "postUrl": "https://x.com/ItsmeAjayKV/status/2116752713128268279",
+  "createdAt": "2026-11-01T04:42:28.000Z",
+  "durationMs": 62800,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116752713128268279/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116752713128268279/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116752713128268279"
+ },
+ {
+  "id": "2116779017126941163",
+  "title": "Interactive voxel floating island in Three.js",
+  "title_zh": "Three.js交互式神州微缩体素浮空岛",
+  "category": "3d-scene",
+  "author": {
+   "handle": "cfenghub",
+   "name": "CF长风"
+  },
+  "postUrl": "https://x.com/cfenghub/status/2116779017126941163",
+  "createdAt": "2026-11-01T06:27:00.000Z",
+  "durationMs": 51100,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116779017126941163/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116779017126941163/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116779017126941163"
+ },
+ {
+  "id": "2116846600186118264",
+  "title": "Autonomous satellite network resilience benchmark comparison",
+  "title_zh": "自主卫星网络弹性基准测试模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "AlicanKiraz0",
+   "name": "Alican Kiraz"
+  },
+  "postUrl": "https://x.com/AlicanKiraz0/status/2116846600186118264",
+  "createdAt": "2026-11-01T10:55:33.000Z",
+  "durationMs": 75566,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116846600186118264/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116846600186118264/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116846600186118264"
+ },
+ {
+  "id": "2116937384151392744",
+  "title": "Halloween themed voxel models generated with DeepSeek",
+  "title_zh": "DeepSeek生成的万圣节主题体素模型",
+  "category": "3d-scene",
+  "author": {
+   "handle": "ivanfioravanti",
+   "name": "Ivan Fioravanti"
+  },
+  "postUrl": "https://x.com/ivanfioravanti/status/2116937384151392744",
+  "createdAt": "2026-11-01T16:56:17.000Z",
+  "durationMs": 24874,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116937384151392744/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116937384151392744/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116937384151392744"
  }
 ]
