@@ -673,24 +673,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111450021849944508"
  },
  {
-  "id": "2111450154448609633",
-  "title": "Three-story Victorian townhouse in Three.js",
-  "title_zh": "Three.js 生成的三层维多利亚风格联排别墅",
-  "category": "3d-scene",
-  "author": {
-   "handle": "ItsmeAjayKV",
-   "name": "AJ"
-  },
-  "postUrl": "https://x.com/ItsmeAjayKV/status/2111450154448609633",
-  "createdAt": "2026-10-17T13:32:00.000Z",
-  "durationMs": 54000,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111450154448609633/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111450154448609633/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111450154448609633"
- },
- {
   "id": "2111451107318993293",
   "title": "Promotional video for web platform",
   "title_zh": "网站创意宣传短片",
@@ -2977,24 +2959,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112227205300564211"
  },
  {
-  "id": "2112235760073994630",
-  "title": "3D stress ball comparison between models",
-  "title_zh": "两款模型生成3D压力球对比",
-  "category": "comparison",
-  "author": {
-   "handle": "filicroval",
-   "name": "filipe"
-  },
-  "postUrl": "https://x.com/filicroval/status/2112235760073994630",
-  "createdAt": "2026-10-19T17:33:43.000Z",
-  "durationMs": 40008,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112235760073994630/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112235760073994630/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112235760073994630"
- },
- {
   "id": "2112243591472980063",
   "title": "Local 3D modeling with DeepSeek in Solidcraft",
   "title_zh": "本地运行 DeepSeek 进行 Solidcraft 3D 建模",
@@ -3771,25 +3735,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113205877289156878/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113205877289156878"
- },
- {
-  "id": "2113263765000986874",
-  "title": "Recreating C64 International Karate game with DeepSeek",
-  "title_zh": "用DeepSeek复刻C64国际空手道游戏",
-  "category": "game",
-  "author": {
-   "handle": "ivanfioravanti",
-   "name": "Ivan Fioravanti"
-  },
-  "postUrl": "https://x.com/ivanfioravanti/status/2113263765000986874",
-  "createdAt": "2026-10-22T13:38:38.000Z",
-  "durationMs": 55953,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113263765000986874/video.mp4",
-  "promptShared": true,
-  "promptText": "Do you remember \"International Karate\" for C64?\nI've asked to DeepSeek V4.1 1017 to implement something similar using DeepSeek Harness (this is important! ⚠️ Harness makes a big difference with this model!)\n\nVery basic prompt: \"Implement the old international karate game that was running on Commodore 64.\"\n\n0-shot! Starting point for additional changes. Quite impressive!\n\nP.S.: now trying same prompt locally on Apple M3 Ultra 512GB and with MiniMax M3.1 too!",
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113263765000986874/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113263765000986874"
  },
  {
   "id": "2113290373329977539",
@@ -4861,6 +4806,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116313449596957104"
  },
  {
+  "id": "2116418780519968794",
+  "title": "Floating voxel island generated with prompt",
+  "title_zh": "单次提示词生成的悬浮体素浮岛",
+  "category": "3d-scene",
+  "author": {
+   "handle": "kqyno7",
+   "name": "Kai"
+  },
+  "postUrl": "https://x.com/kqyno7/status/2116418780519968794",
+  "createdAt": "2026-10-31T06:35:33.000Z",
+  "durationMs": 61240,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116418780519968794/video.mp4",
+  "promptShared": true,
+  "promptText": "用 DeepSeek 4.1 Flash-1017 One-Shot Prompt 生成的floating-voxel-island ，还让它自己把视频给剪了\n\n感觉相比之前，细节确实更丰富了一些 👀 新的 Checkpoint? \n\nHarness: Version 0.2.1-rc.5\nThinking: Max Level\nPrompt: 放评论区了\n\n#DeepSeek #AICoding #VibeCoding #AI",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116418780519968794/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116418780519968794"
+ },
+ {
   "id": "2116420171221045279",
   "title": "GLM 5.3 full benchmark demo",
   "title_zh": "GLM 5.3 完整版性能测试演示",
@@ -4952,6 +4916,25 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116846600186118264"
  },
  {
+  "id": "2116926511848763738",
+  "title": "Voxel cat knocking a glass off table",
+  "title_zh": "推倒桌上水杯的体素猫咪场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "filicroval",
+   "name": "filipe"
+  },
+  "postUrl": "https://x.com/filicroval/status/2116926511848763738",
+  "createdAt": "2026-11-01T16:13:05.000Z",
+  "durationMs": 20616,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116926511848763738/video.mp4",
+  "promptShared": true,
+  "promptText": "asked deepseek v4.1 flash 1017 for a voxel cat knocking a glass of water off the table\n\nit nailed it. model feels better than last week too, probably placebo tho",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116926511848763738/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116926511848763738"
+ },
+ {
   "id": "2116937384151392744",
   "title": "Halloween themed voxel models generated with DeepSeek",
   "title_zh": "DeepSeek生成的万圣节主题体素模型",
@@ -4968,5 +4951,96 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116937384151392744/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116937384151392744"
+ },
+ {
+  "id": "2116938821430325559",
+  "title": "Automated cluster ops across four nodes",
+  "title_zh": "四节点本地集群运维自动化演示",
+  "category": "ui-demo",
+  "author": {
+   "handle": "HMLGGGG",
+   "name": "HMLG"
+  },
+  "postUrl": "https://x.com/HMLGGGG/status/2116938821430325559",
+  "createdAt": "2026-11-01T17:02:00.000Z",
+  "durationMs": 74500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116938821430325559/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116938821430325559/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116938821430325559"
+ },
+ {
+  "id": "2117049046661529809",
+  "title": "Music video generated with synchronized lyrics",
+  "title_zh": "歌词同步联动的 AI 生成音乐视频",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "hiwise_aigc",
+   "name": "启明破晓"
+  },
+  "postUrl": "https://x.com/hiwise_aigc/status/2117049046661529809",
+  "createdAt": "2026-11-02T00:20:00.000Z",
+  "durationMs": 60070,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117049046661529809/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117049046661529809/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117049046661529809"
+ },
+ {
+  "id": "2117086726099542137",
+  "title": "A water simulation generated in one shot",
+  "title_zh": "单次生成的程序化水体模拟效果",
+  "category": "3d-scene",
+  "author": {
+   "handle": "ItsmeAjayKV",
+   "name": "AJ"
+  },
+  "postUrl": "https://x.com/ItsmeAjayKV/status/2117086726099542137",
+  "createdAt": "2026-11-02T02:49:43.000Z",
+  "durationMs": 59683,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117086726099542137/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117086726099542137/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117086726099542137"
+ },
+ {
+  "id": "2117279314110488577",
+  "title": "Santa Claus voxel test on M3 Ultra",
+  "title_zh": "M3 Ultra 上的圣诞老人体素测试",
+  "category": "3d-scene",
+  "author": {
+   "handle": "ivanfioravanti",
+   "name": "Ivan Fioravanti"
+  },
+  "postUrl": "https://x.com/ivanfioravanti/status/2117279314110488577",
+  "createdAt": "2026-11-02T15:35:00.000Z",
+  "durationMs": 21064,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117279314110488577/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117279314110488577/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117279314110488577"
+ },
+ {
+  "id": "2117322189989134567",
+  "title": "Christmas Eve diorama model comparison",
+  "title_zh": "平安夜微缩场景双模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "ivanfioravanti",
+   "name": "Ivan Fioravanti"
+  },
+  "postUrl": "https://x.com/ivanfioravanti/status/2117322189989134567",
+  "createdAt": "2026-11-02T18:25:22.000Z",
+  "durationMs": 36198,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117322189989134567/video.mp4",
+  "promptShared": true,
+  "promptText": "Christmas Eve Diorama comparison:\n- left: new model that will be released this week\n- right: DeepSeek V4.1 1017 \n\nBoth using online API.\nI like the Depth of field of the left side!\n\nPrompt below, based on @ItsmeAjayKV idea!",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117322189989134567/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117322189989134567"
  }
 ]

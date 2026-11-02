@@ -2,15 +2,15 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-38 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+40 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
-- [3D scenes](#3d-scene) (12)
+- [3D scenes](#3d-scene) (14)
 - [Motion graphics](#motion-graphics) (1)
-- [Games](#game) (8)
+- [Games](#game) (7)
 - [Launch films](#launch-film) (2)
-- [Tests & comparisons](#comparison) (15)
+- [Tests & comparisons](#comparison) (16)
 
 <a id="3d-scene"></a>
 
@@ -299,6 +299,32 @@ Voxel Pagoda from an absolutely simple and vague prompt:
 > 39 min
 ```
 
+### Floating voxel island generated with prompt
+
+[@kqyno7](https://x.com/kqyno7/status/2116418780519968794) · 1:01 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116418780519968794/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116418780519968794?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+用 DeepSeek 4.1 Flash-1017 One-Shot Prompt 生成的floating-voxel-island ，还让它自己把视频给剪了
+
+感觉相比之前，细节确实更丰富了一些 👀 新的 Checkpoint? 
+
+Harness: Version 0.2.1-rc.5
+Thinking: Max Level
+Prompt: 放评论区了
+
+#DeepSeek #AICoding #VibeCoding #AI
+```
+
+### Voxel cat knocking a glass off table
+
+[@filicroval](https://x.com/filicroval/status/2116926511848763738) · 0:21 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116926511848763738/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116926511848763738?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+asked deepseek v4.1 flash 1017 for a voxel cat knocking a glass of water off the table
+
+it nailed it. model feels better than last week too, probably placebo tho
+```
+
 <a id="motion-graphics"></a>
 
 ## Motion graphics
@@ -473,21 +499,6 @@ Qwen3.6 35B A3B が元々優秀だったから、今回のモデルとの差分�
 少なくとも Qwen3.8 Flash Next や DeepSeek V4.1 Flash 1017 の Q1 や Q2 を無理に動かすよりは多くの環境でのエージェント用途の助けになりそうな感触🤔
 
 InternScience/Sage-A1.5
-```
-
-### Recreating C64 International Karate game with DeepSeek
-
-[@ivanfioravanti](https://x.com/ivanfioravanti/status/2113263765000986874) · 0:56 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113263765000986874/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113263765000986874?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
-
-```text
-Do you remember "International Karate" for C64?
-I've asked to DeepSeek V4.1 1017 to implement something similar using DeepSeek Harness (this is important! ⚠️ Harness makes a big difference with this model!)
-
-Very basic prompt: "Implement the old international karate game that was running on Commodore 64."
-
-0-shot! Starting point for additional changes. Quite impressive!
-
-P.S.: now trying same prompt locally on Apple M3 Ultra 512GB and with MiniMax M3.1 too!
 ```
 
 ### Isometric flood-control game set in neighborhood
@@ -912,4 +923,19 @@ deepseek v4.1 flash 1017 vs glm-5.3 flash
 same prompt: “Make a 3D voxel world of a frog sitting under a giant mushroom umbrella during a rainstorm”
 
 glm was a bit lazy. deepseek nailed the scenery and the frog and was cheaper
+```
+
+### Christmas Eve diorama model comparison
+
+[@ivanfioravanti](https://x.com/ivanfioravanti/status/2117322189989134567) · 0:36 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117322189989134567/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117322189989134567?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Christmas Eve Diorama comparison:
+- left: new model that will be released this week
+- right: DeepSeek V4.1 1017 
+
+Both using online API.
+I like the Depth of field of the left side!
+
+Prompt below, based on @ItsmeAjayKV idea!
 ```

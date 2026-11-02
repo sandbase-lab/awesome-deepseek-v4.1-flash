@@ -2,15 +2,15 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 38 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 40 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
-- [3D 场景](#3d-scene) (12)
+- [3D 场景](#3d-scene) (14)
 - [动效](#motion-graphics) (1)
-- [游戏](#game) (8)
+- [游戏](#game) (7)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (15)
+- [测试对比](#comparison) (16)
 
 <a id="3d-scene"></a>
 
@@ -299,6 +299,32 @@ Voxel Pagoda from an absolutely simple and vague prompt:
 > 39 min
 ```
 
+### 单次提示词生成的悬浮体素浮岛
+
+[@kqyno7](https://x.com/kqyno7/status/2116418780519968794) · 1:01 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116418780519968794/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116418780519968794?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+用 DeepSeek 4.1 Flash-1017 One-Shot Prompt 生成的floating-voxel-island ，还让它自己把视频给剪了
+
+感觉相比之前，细节确实更丰富了一些 👀 新的 Checkpoint? 
+
+Harness: Version 0.2.1-rc.5
+Thinking: Max Level
+Prompt: 放评论区了
+
+#DeepSeek #AICoding #VibeCoding #AI
+```
+
+### 推倒桌上水杯的体素猫咪场景
+
+[@filicroval](https://x.com/filicroval/status/2116926511848763738) · 0:21 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116926511848763738/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116926511848763738?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+asked deepseek v4.1 flash 1017 for a voxel cat knocking a glass of water off the table
+
+it nailed it. model feels better than last week too, probably placebo tho
+```
+
 <a id="motion-graphics"></a>
 
 ## 动效
@@ -473,21 +499,6 @@ Qwen3.6 35B A3B が元々優秀だったから、今回のモデルとの差分�
 少なくとも Qwen3.8 Flash Next や DeepSeek V4.1 Flash 1017 の Q1 や Q2 を無理に動かすよりは多くの環境でのエージェント用途の助けになりそうな感触🤔
 
 InternScience/Sage-A1.5
-```
-
-### 用DeepSeek复刻C64国际空手道游戏
-
-[@ivanfioravanti](https://x.com/ivanfioravanti/status/2113263765000986874) · 0:56 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113263765000986874/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113263765000986874?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
-
-```text
-Do you remember "International Karate" for C64?
-I've asked to DeepSeek V4.1 1017 to implement something similar using DeepSeek Harness (this is important! ⚠️ Harness makes a big difference with this model!)
-
-Very basic prompt: "Implement the old international karate game that was running on Commodore 64."
-
-0-shot! Starting point for additional changes. Quite impressive!
-
-P.S.: now trying same prompt locally on Apple M3 Ultra 512GB and with MiniMax M3.1 too!
 ```
 
 ### 社区防洪等距视角游戏生成演示
@@ -912,4 +923,19 @@ deepseek v4.1 flash 1017 vs glm-5.3 flash
 same prompt: “Make a 3D voxel world of a frog sitting under a giant mushroom umbrella during a rainstorm”
 
 glm was a bit lazy. deepseek nailed the scenery and the frog and was cheaper
+```
+
+### 平安夜微缩场景双模型对比
+
+[@ivanfioravanti](https://x.com/ivanfioravanti/status/2117322189989134567) · 0:36 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117322189989134567/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117322189989134567?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Christmas Eve Diorama comparison:
+- left: new model that will be released this week
+- right: DeepSeek V4.1 1017 
+
+Both using online API.
+I like the Depth of field of the left side!
+
+Prompt below, based on @ItsmeAjayKV idea!
 ```
