@@ -2,13 +2,13 @@
 
 [English](README.md) · 简体中文
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Videos](https://img.shields.io/badge/videos-278-blue)](#contents) [![Prompts](https://img.shields.io/badge/prompts-40-green)](docs/zh-CN/prompts.md) [![Sync](https://github.com/sandbase-lab/awesome-deepseek-v4.1-flash-1017/actions/workflows/sync.yml/badge.svg)](https://github.com/sandbase-lab/awesome-deepseek-v4.1-flash-1017/actions/workflows/sync.yml) [![Run on SandBase](https://img.shields.io/badge/run%20on-SandBase-black)](https://www.sandbase.ai/model/deepseek/deepseek-v4.1-flash?utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Videos](https://img.shields.io/badge/videos-280-blue)](#contents) [![Prompts](https://img.shields.io/badge/prompts-40-green)](docs/zh-CN/prompts.md) [![Sync](https://github.com/sandbase-lab/awesome-deepseek-v4.1-flash-1017/actions/workflows/sync.yml/badge.svg)](https://github.com/sandbase-lab/awesome-deepseek-v4.1-flash-1017/actions/workflows/sync.yml) [![Run on SandBase](https://img.shields.io/badge/run%20on-SandBase-black)](https://www.sandbase.ai/model/deepseek/deepseek-v4.1-flash?utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017)
 
 [![Awesome DeepSeek V4.1 Flash 1017：视频、提示词、教程和模型对比](assets/banner.png)](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=banner)
 
 精选 **DeepSeek V4.1 Flash 1017 案例**合集：用 DeepSeek-V4.1-Flash-1017（DeepSeek V4.1 Flash 在 2026 年 10 月 17 日的更新版）做出的视频、提示词和演示。包括 Three.js / WebGL 3D 场景、SVG 与 Canvas 动画、动效和可在浏览器里玩的游戏，大多是模型根据提示词写成的代码，均注明作者并链接原帖。
 
-共 **278 条视频**，来自 **163 位创作者** · **40 条**附作者提示词 · 每天从 [SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=stats) 同步
+共 **280 条视频**，来自 **165 位创作者** · **40 条**附作者提示词 · 每天从 [SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=stats) 同步
 
 ## 从这里开始
 
@@ -29,10 +29,10 @@
 - [3D 场景](#3d-scene) (84)
 - [动效](#motion-graphics) (26)
 - [游戏](#game) (21)
-- [产品界面](#ui-demo) (15)
+- [产品界面](#ui-demo) (16)
 - [粒子与形状](#particles) (2)
 - [图表图解](#data-viz) (2)
-- [讲解](#explainer) (3)
+- [讲解](#explainer) (4)
 - [发布片](#launch-film) (6)
 - [测试对比](#comparison) (119)
 - [用 DeepSeek V4.1 Flash 1017 复刻视频](#recreate)
@@ -151,12 +151,13 @@
 </table>
 
 <details>
-<summary><b>展开全部 15 条</b></summary>
+<summary><b>展开全部 16 条</b></summary>
 
 <table>
 <tr><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113850530774802611/video.mp4"><img src="previews/2113850530774802611.webp" alt="在DGX Spark集群上运行DeepSeek写代码" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113850530774802611?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>在DGX Spark集群上运行DeepSeek写代码</b></a><br><sub><a href="https://x.com/sash__mit/status/2113850530774802611">@sash__mit</a> · 0:35</sub></td><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113891994569200078/video.mp4"><img src="previews/2113891994569200078.webp" alt="单张RTX 5090本地运行748B模型测试" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113891994569200078?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>单张RTX 5090本地运行748B模型测试</b></a><br><sub><a href="https://x.com/_elenajoseph_/status/2113891994569200078">@_elenajoseph_</a> · 0:42</sub></td><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113948624359166103/video.mp4"><img src="previews/2113948624359166103.webp" alt="DeepSeek-V4.1-Flash 在 Mac Studio 上的推理基准测试" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113948624359166103?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>DeepSeek-V4.1-Flash 在 Mac Studio 上的推理基准测试</b></a><br><sub><a href="https://x.com/niklaslenz_ai/status/2113948624359166103">@niklaslenz_ai</a> · 0:23</sub></td></tr>
 <tr><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113957322116813206/video.mp4"><img src="previews/2113957322116813206.webp" alt="DeepSeek V4.1实时生成速度演示" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113957322116813206?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>DeepSeek V4.1实时生成速度演示</b></a><br><sub><a href="https://x.com/AtharvaIngle7/status/2113957322116813206">@AtharvaIngle7</a> · 0:40</sub></td><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114194687959740679/video.mp4"><img src="previews/2114194687959740679.webp" alt="Remotion制作的个人主页与媒体包动画" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114194687959740679?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>Remotion制作的个人主页与媒体包动画</b></a><br><sub><a href="https://x.com/chasen_liao/status/2114194687959740679">@chasen_liao</a> · 0:15</sub></td><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114364317089034693/video.mp4"><img src="previews/2114364317089034693.webp" alt="定时发送早间资讯摘要并创建应用的机器人" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114364317089034693?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>定时发送早间资讯摘要并创建应用的机器人</b></a><br><sub><a href="https://x.com/fayazara/status/2114364317089034693">@fayazara</a> · 1:25</sub></td></tr>
 <tr><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115144517729050755/video.mp4"><img src="previews/2115144517729050755.webp" alt="本地AI推理速度基准与状态监控面板" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115144517729050755?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>本地AI推理速度基准与状态监控面板</b></a><br><sub><a href="https://x.com/norsyx/status/2115144517729050755">@norsyx</a> · 0:23</sub></td><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115481653045076373/video.mp4"><img src="previews/2115481653045076373.webp" alt="开源代码库探索与架构映射工具演示" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115481653045076373?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>开源代码库探索与架构映射工具演示</b></a><br><sub><a href="https://x.com/Astrodevil_/status/2115481653045076373">@Astrodevil_</a> · 1:21</sub></td><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116938821430325559/video.mp4"><img src="previews/2116938821430325559.webp" alt="四节点本地集群运维自动化演示" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116938821430325559?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>四节点本地集群运维自动化演示</b></a><br><sub><a href="https://x.com/HMLGGGG/status/2116938821430325559">@HMLGGGG</a> · 1:14</sub></td></tr>
+<tr><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117348593447084426/video.mp4"><img src="previews/2117348593447084426.webp" alt="本地模型运行Hermes Agent测试" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117348593447084426?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>本地模型运行Hermes Agent测试</b></a><br><sub><a href="https://x.com/VenelinVidenov/status/2117348593447084426">@VenelinVidenov</a> · 0:41</sub></td></tr>
 </table>
 
 </details>
@@ -183,6 +184,7 @@
 
 <table>
 <tr><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111442747999789204/video.mp4"><img src="previews/2111442747999789204.webp" alt="OpenDesign API接入教程动效" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111442747999789204?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>OpenDesign API接入教程动效</b></a><br><sub><a href="https://x.com/tuturetom/status/2111442747999789204">@tuturetom</a> · 1:07</sub></td><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111917405404361211/video.mp4"><img src="previews/2111917405404361211.webp" alt="使用 Grok Bot 和 DeepSeek Flash 搭建自动化智能体" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111917405404361211?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>使用 Grok Bot 和 DeepSeek Flash 搭建自动化智能体</b></a><br><sub><a href="https://x.com/yurshevv/status/2111917405404361211">@yurshevv</a> · 0:20</sub></td><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112145681582620767/video.mp4"><img src="previews/2112145681582620767.webp" alt="Roadster 2讲解项目与完整发布包" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112145681582620767?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>Roadster 2讲解项目与完整发布包</b></a><br><sub><a href="https://x.com/ZhihuFrontier/status/2112145681582620767">@ZhihuFrontier</a> · 0:44</sub></td></tr>
+<tr><td width="33%" valign="top"><a href="https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117433715341287490/video.mp4"><img src="previews/2117433715341287490.webp" alt="DeepSeek-V4.1的EXL3量化测试" width="100%"></a><br><a href="https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117433715341287490?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=card"><b>DeepSeek-V4.1的EXL3量化测试</b></a><br><sub><a href="https://x.com/ViC305/status/2117433715341287490">@ViC305</a> · 0:10</sub></td></tr>
 </table>
 
 <a id="launch-film"></a>
@@ -249,7 +251,7 @@
 
 </details>
 
-**[在 SandBase Lab 查看全部 278 条 →](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=section)**
+**[在 SandBase Lab 查看全部 280 条 →](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017?lang=zh-CN&utm_source=github&utm_medium=readme&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=section)**
 
 <a id="recreate"></a>
 

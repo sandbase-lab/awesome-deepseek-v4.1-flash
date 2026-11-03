@@ -5042,5 +5042,41 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117322189989134567/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117322189989134567"
+ },
+ {
+  "id": "2117348593447084426",
+  "title": "Local model testing Hermes Agent interface",
+  "title_zh": "本地模型运行Hermes Agent测试",
+  "category": "ui-demo",
+  "author": {
+   "handle": "VenelinVidenov",
+   "name": "Venelin Videnov"
+  },
+  "postUrl": "https://x.com/VenelinVidenov/status/2117348593447084426",
+  "createdAt": "2026-11-02T20:10:17.000Z",
+  "durationMs": 41366,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117348593447084426/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117348593447084426/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117348593447084426"
+ },
+ {
+  "id": "2117433715341287490",
+  "title": "EXL3 quantization benchmark on DeepSeek-V4.1",
+  "title_zh": "DeepSeek-V4.1的EXL3量化测试",
+  "category": "explainer",
+  "author": {
+   "handle": "ViC305",
+   "name": "Cruz"
+  },
+  "postUrl": "https://x.com/ViC305/status/2117433715341287490",
+  "createdAt": "2026-11-03T01:48:32.000Z",
+  "durationMs": 10041,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117433715341287490/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117433715341287490/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117433715341287490"
  }
 ]
