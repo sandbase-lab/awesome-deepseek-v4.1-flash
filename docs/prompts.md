@@ -2,7 +2,7 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-40 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+42 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
@@ -10,7 +10,7 @@ Each entry quotes the creator's post as published on X, where the prompt is shar
 - [Motion graphics](#motion-graphics) (1)
 - [Games](#game) (7)
 - [Launch films](#launch-film) (2)
-- [Tests & comparisons](#comparison) (16)
+- [Tests & comparisons](#comparison) (18)
 
 <a id="3d-scene"></a>
 
@@ -938,4 +938,32 @@ Both using online API.
 I like the Depth of field of the left side!
 
 Prompt below, based on @ItsmeAjayKV idea!
+```
+
+### Pelican riding bicycle SVG animation comparison
+
+[@xueyu1125](https://x.com/xueyu1125/status/2117951147239682360) · 0:20 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117951147239682360/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117951147239682360?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Hy4正式版鹈鹕测试第二波，对比Hy4 Preview、DeepSeek V4.1 Flash 1017、Kimi K3.1 Pro
+
+完全一样的提示词: 生成一个svg动画：鹈鹕骑自行车，用H5给我展示下
+
+鹈鹕这一块我的排名是：
+
+DeepSeek V4.1 Flash 1017 >  Kimi K3.1 Pro >  Hy4 > Hy4 Preview
+
+对比见下方👇 你们心目中的排名是什么
+```
+
+### Procedural Three.js scene model comparison
+
+[@swarogan](https://x.com/swarogan/status/2117981993162215865) · 0:10 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117981993162215865/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117981993162215865?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Does using a blender make a big difference?
+
+For comparison, also the GPT-6.1 Sol vs DeepSeek v4.1 Flash 1017 version procedurally in three.js
+
+The same prompt in replies:
 ```

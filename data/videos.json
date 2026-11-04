@@ -72,24 +72,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111387136264126744"
  },
  {
-  "id": "2111388754573398252",
-  "title": "Showcase of four 3D GIF demos",
-  "title_zh": "四个3D动态场景效果展示",
-  "category": "3d-scene",
-  "author": {
-   "handle": "YxzRainy",
-   "name": "兴雨"
-  },
-  "postUrl": "https://x.com/YxzRainy/status/2111388754573398252",
-  "createdAt": "2026-10-17T09:28:01.000Z",
-  "durationMs": 14905,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111388754573398252/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111388754573398252/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111388754573398252"
- },
- {
   "id": "2111390831244460473",
   "title": "Speed and 3D capabilities test of DeepSeek V4.1",
   "title_zh": "DeepSeek V4.1 速度与3D生成能力测试",
@@ -5078,5 +5060,133 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117433715341287490/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117433715341287490"
+ },
+ {
+  "id": "2117739388247638486",
+  "title": "A Baldur's Gate 3 scene made locally",
+  "title_zh": "本地运行生成的博德之门3场景",
+  "category": "3d-scene",
+  "author": {
+   "handle": "thatcupiedoll",
+   "name": "QP"
+  },
+  "postUrl": "https://x.com/thatcupiedoll/status/2117739388247638486",
+  "createdAt": "2026-11-03T22:03:10.000Z",
+  "durationMs": 48500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117739388247638486/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117739388247638486/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117739388247638486"
+ },
+ {
+  "id": "2117805606153474402",
+  "title": "A 3D jet engine coded from one prompt",
+  "title_zh": "单提示词代码生成的3D喷气发动机",
+  "category": "3d-scene",
+  "author": {
+   "handle": "ThinkrOS",
+   "name": "Thinkr"
+  },
+  "postUrl": "https://x.com/ThinkrOS/status/2117805606153474402",
+  "createdAt": "2026-11-04T02:26:18.000Z",
+  "durationMs": 15061,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117805606153474402/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117805606153474402/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117805606153474402"
+ },
+ {
+  "id": "2117872506749297151",
+  "title": "3D voxel pagoda model comparison",
+  "title_zh": "3D体素宝塔多模型效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "MingTian685474",
+   "name": "Aurora"
+  },
+  "postUrl": "https://x.com/MingTian685474/status/2117872506749297151",
+  "createdAt": "2026-11-04T06:52:08.000Z",
+  "durationMs": 20000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117872506749297151/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117872506749297151/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117872506749297151"
+ },
+ {
+  "id": "2117951147239682360",
+  "title": "Pelican riding bicycle SVG animation comparison",
+  "title_zh": "鹈鹕骑自行车SVG动画多模型对比",
+  "category": "comparison",
+  "author": {
+   "handle": "xueyu1125",
+   "name": "雪瑜"
+  },
+  "postUrl": "https://x.com/xueyu1125/status/2117951147239682360",
+  "createdAt": "2026-11-04T12:04:37.000Z",
+  "durationMs": 19551,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117951147239682360/video.mp4",
+  "promptShared": true,
+  "promptText": "Hy4正式版鹈鹕测试第二波，对比Hy4 Preview、DeepSeek V4.1 Flash 1017、Kimi K3.1 Pro\n\n完全一样的提示词: 生成一个svg动画：鹈鹕骑自行车，用H5给我展示下\n\n鹈鹕这一块我的排名是：\n\nDeepSeek V4.1 Flash 1017 >  Kimi K3.1 Pro >  Hy4 > Hy4 Preview\n\n对比见下方👇 你们心目中的排名是什么",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117951147239682360/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117951147239682360"
+ },
+ {
+  "id": "2117961593199992899",
+  "title": "3D pelican riding bicycle test comparison",
+  "title_zh": "3D鹈鹕骑自行车模型对比实测",
+  "category": "comparison",
+  "author": {
+   "handle": "YxzRainy",
+   "name": "兴雨"
+  },
+  "postUrl": "https://x.com/YxzRainy/status/2117961593199992899",
+  "createdAt": "2026-11-04T12:46:08.000Z",
+  "durationMs": 23706,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117961593199992899/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117961593199992899/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117961593199992899"
+ },
+ {
+  "id": "2117973135165370492",
+  "title": "Pelican riding bicycle animated SVG benchmark",
+  "title_zh": "鹈鹕骑车SVG动画关键帧实测对比",
+  "category": "comparison",
+  "author": {
+   "handle": "xiangxiang103",
+   "name": "雨哥向前冲"
+  },
+  "postUrl": "https://x.com/xiangxiang103/status/2117973135165370492",
+  "createdAt": "2026-11-04T13:32:00.000Z",
+  "durationMs": 16000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117973135165370492/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117973135165370492/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117973135165370492"
+ },
+ {
+  "id": "2117981993162215865",
+  "title": "Procedural Three.js scene model comparison",
+  "title_zh": "Three.js程序化生成场景对比",
+  "category": "comparison",
+  "author": {
+   "handle": "swarogan",
+   "name": "Swarogan"
+  },
+  "postUrl": "https://x.com/swarogan/status/2117981993162215865",
+  "createdAt": "2026-11-04T14:07:12.000Z",
+  "durationMs": 10240,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117981993162215865/video.mp4",
+  "promptShared": true,
+  "promptText": "Does using a blender make a big difference?\n\nFor comparison, also the GPT-6.1 Sol vs DeepSeek v4.1 Flash 1017 version procedurally in three.js\n\nThe same prompt in replies:",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117981993162215865/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117981993162215865"
  }
 ]

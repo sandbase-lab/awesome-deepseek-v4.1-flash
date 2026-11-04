@@ -2,7 +2,7 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 40 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 42 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
@@ -10,7 +10,7 @@
 - [动效](#motion-graphics) (1)
 - [游戏](#game) (7)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (16)
+- [测试对比](#comparison) (18)
 
 <a id="3d-scene"></a>
 
@@ -938,4 +938,32 @@ Both using online API.
 I like the Depth of field of the left side!
 
 Prompt below, based on @ItsmeAjayKV idea!
+```
+
+### 鹈鹕骑自行车SVG动画多模型对比
+
+[@xueyu1125](https://x.com/xueyu1125/status/2117951147239682360) · 0:20 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117951147239682360/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117951147239682360?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Hy4正式版鹈鹕测试第二波，对比Hy4 Preview、DeepSeek V4.1 Flash 1017、Kimi K3.1 Pro
+
+完全一样的提示词: 生成一个svg动画：鹈鹕骑自行车，用H5给我展示下
+
+鹈鹕这一块我的排名是：
+
+DeepSeek V4.1 Flash 1017 >  Kimi K3.1 Pro >  Hy4 > Hy4 Preview
+
+对比见下方👇 你们心目中的排名是什么
+```
+
+### Three.js程序化生成场景对比
+
+[@swarogan](https://x.com/swarogan/status/2117981993162215865) · 0:10 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117981993162215865/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117981993162215865?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Does using a blender make a big difference?
+
+For comparison, also the GPT-6.1 Sol vs DeepSeek v4.1 Flash 1017 version procedurally in three.js
+
+The same prompt in replies:
 ```
