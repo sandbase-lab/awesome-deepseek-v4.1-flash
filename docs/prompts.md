@@ -2,11 +2,11 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-42 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+43 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
-- [3D scenes](#3d-scene) (14)
+- [3D scenes](#3d-scene) (15)
 - [Motion graphics](#motion-graphics) (1)
 - [Games](#game) (7)
 - [Launch films](#launch-film) (2)
@@ -323,6 +323,26 @@ Prompt: 放评论区了
 asked deepseek v4.1 flash 1017 for a voxel cat knocking a glass of water off the table
 
 it nailed it. model feels better than last week too, probably placebo tho
+```
+
+### Interactive pop-up books generated locally
+
+[@ivanfioravanti](https://x.com/ivanfioravanti/status/2118222107783873005) · 1:18 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2118222107783873005/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2118222107783873005?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+DeepSeek V4.1 Flash 1017 original weights running locally! 
+
+Paper Journey Through Japan - mlx-server 2xM3 Ultra
+A Day in the Forest - TensorFold 4xDGX Sparks
+
+DeepSeek Harness used:
+- cache hit rate: 99%
+- average decode speed on both side has been ~ 52 t/s
+- Max context used 815K(!) on M3 Ultra vs (400K) on DGX
+
+Clearly a single M3 Ultra is more than enough, but two gave a boost to prefill and decode speed.
+
+Prompt for interactive pop-up books for children:
 ```
 
 <a id="motion-graphics"></a>

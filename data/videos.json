@@ -194,7 +194,7 @@
   "durationMs": 51407,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111401362713968942/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111401362713968942/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111401362713968942"
  },
@@ -250,7 +250,7 @@
   "durationMs": 24000,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111411889217651196/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111411889217651196/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111411889217651196"
  },
@@ -558,7 +558,7 @@
   "durationMs": 45625,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111440821484667343/video.mp4",
   "promptShared": false,
-  "featured": null,
+  "featured": 0,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111440821484667343/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111440821484667343"
  },
@@ -613,7 +613,7 @@
   "durationMs": 67433,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111442747999789204/video.mp4",
   "promptShared": false,
-  "featured": 0,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111442747999789204/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111442747999789204"
  },
@@ -4438,7 +4438,7 @@
   "durationMs": 21035,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115035083694555148/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115035083694555148/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115035083694555148"
  },
@@ -4917,24 +4917,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116926511848763738"
  },
  {
-  "id": "2116937384151392744",
-  "title": "Halloween themed voxel models generated with DeepSeek",
-  "title_zh": "DeepSeek生成的万圣节主题体素模型",
-  "category": "3d-scene",
-  "author": {
-   "handle": "ivanfioravanti",
-   "name": "Ivan Fioravanti"
-  },
-  "postUrl": "https://x.com/ivanfioravanti/status/2116937384151392744",
-  "createdAt": "2026-11-01T16:56:17.000Z",
-  "durationMs": 24874,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116937384151392744/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2116937384151392744/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2116937384151392744"
- },
- {
   "id": "2116938821430325559",
   "title": "Automated cluster ops across four nodes",
   "title_zh": "四节点本地集群运维自动化演示",
@@ -5188,5 +5170,60 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2117981993162215865/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2117981993162215865"
+ },
+ {
+  "id": "2118222107783873005",
+  "title": "Interactive pop-up books generated locally",
+  "title_zh": "本地生成的儿童立体互动书",
+  "category": "3d-scene",
+  "author": {
+   "handle": "ivanfioravanti",
+   "name": "Ivan Fioravanti"
+  },
+  "postUrl": "https://x.com/ivanfioravanti/status/2118222107783873005",
+  "createdAt": "2026-11-05T06:01:19.000Z",
+  "durationMs": 77502,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2118222107783873005/video.mp4",
+  "promptShared": true,
+  "promptText": "DeepSeek V4.1 Flash 1017 original weights running locally! \n\nPaper Journey Through Japan - mlx-server 2xM3 Ultra\nA Day in the Forest - TensorFold 4xDGX Sparks\n\nDeepSeek Harness used:\n- cache hit rate: 99%\n- average decode speed on both side has been ~ 52 t/s\n- Max context used 815K(!) on M3 Ultra vs (400K) on DGX\n\nClearly a single M3 Ultra is more than enough, but two gave a boost to prefill and decode speed.\n\nPrompt for interactive pop-up books for children:",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2118222107783873005/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2118222107783873005"
+ },
+ {
+  "id": "2118310499213312478",
+  "title": "A 3D claw crane game in Three.js",
+  "title_zh": "Three.js制作的3D抓娃娃机游戏",
+  "category": "game",
+  "author": {
+   "handle": "RenaRoze_doll",
+   "name": "レナロゼ💎AI情報・ゲーム制作"
+  },
+  "postUrl": "https://x.com/RenaRoze_doll/status/2118310499213312478",
+  "createdAt": "2026-11-05T11:52:33.000Z",
+  "durationMs": 32000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2118310499213312478/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2118310499213312478/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2118310499213312478"
+ },
+ {
+  "id": "2118386115170496855",
+  "title": "Local speech transcription and refinement engine demo",
+  "title_zh": "本地语音转录与精炼引擎演示",
+  "category": "ui-demo",
+  "author": {
+   "handle": "elliotarledge",
+   "name": "Elliot Arledge"
+  },
+  "postUrl": "https://x.com/elliotarledge/status/2118386115170496855",
+  "createdAt": "2026-11-05T16:53:02.000Z",
+  "durationMs": 54500,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2118386115170496855/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2118386115170496855/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2118386115170496855"
  }
 ]
