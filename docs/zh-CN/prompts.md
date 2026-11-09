@@ -2,13 +2,13 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 43 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 44 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
 - [3D 场景](#3d-scene) (15)
 - [动效](#motion-graphics) (1)
-- [游戏](#game) (7)
+- [游戏](#game) (8)
 - [发布片](#launch-film) (2)
 - [测试对比](#comparison) (18)
 
@@ -561,6 +561,16 @@ Nanbeige4.3-33B お試し
 
 VRAM 要求がでかすぎるし、ビジョンも無いし
 余程の使い道が無い限り Qwen3.8 FN とか Deepseek 1017 でいいやってなるね
+```
+
+### Blender制作的暗黑破坏神3风格游戏
+
+[@Samking207](https://x.com/Samking207/status/2119193705064325574) · 2:24 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119193705064325574/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119193705064325574?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Created with @deepseek_ai  V4.1-Flash-1017, DSH + Blender. Prompt was super basic, just create a Diablo 3 style video game using my Blender MCP. 
+
+@teortaxesTex @tianyi @ivanfioravanti
 ```
 
 <a id="launch-film"></a>

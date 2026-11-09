@@ -5261,5 +5261,78 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119064952862552148/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119064952862552148"
+ },
+ {
+  "id": "2119193705064325574",
+  "title": "Diablo 3 style video game in Blender",
+  "title_zh": "Blender制作的暗黑破坏神3风格游戏",
+  "category": "game",
+  "author": {
+   "handle": "Samking207",
+   "name": "SK"
+  },
+  "postUrl": "https://x.com/Samking207/status/2119193705064325574",
+  "createdAt": "2026-11-07T22:22:06.000Z",
+  "durationMs": 143936,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119193705064325574/video.mp4",
+  "promptShared": true,
+  "promptText": "Created with @deepseek_ai  V4.1-Flash-1017, DSH + Blender. Prompt was super basic, just create a Diablo 3 style video game using my Blender MCP. \n\n@teortaxesTex @tianyi @ivanfioravanti",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119193705064325574/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119193705064325574"
+ },
+ {
+  "id": "2119207201315373065",
+  "title": "Speed comparison on Vercel AI Gateway",
+  "title_zh": "Vercel AI网关速度对比",
+  "category": "comparison",
+  "author": {
+   "handle": "DarlingtonDev",
+   "name": "Mike Darlington ▲"
+  },
+  "postUrl": "https://x.com/DarlingtonDev/status/2119207201315373065",
+  "createdAt": "2026-11-07T23:15:44.000Z",
+  "durationMs": 10700,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119207201315373065/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119207201315373065/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119207201315373065"
+ },
+ {
+  "id": "2119409706011861314",
+  "title": "Short ferry video in Blender and Three.js",
+  "title_zh": "Blender与Three.js制作的渡轮短片",
+  "category": "3d-scene",
+  "author": {
+   "handle": "izag82161",
+   "name": "Itomaru 📿"
+  },
+  "postUrl": "https://x.com/izag82161/status/2119409706011861314",
+  "createdAt": "2026-11-08T12:40:25.000Z",
+  "durationMs": 20000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119409706011861314/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119409706011861314/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119409706011861314"
+ },
+ {
+  "id": "2119433098446455123",
+  "title": "Generated SVG rocket illustration",
+  "title_zh": "生成的SVG火箭插画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "debugsenpai",
+   "name": "Jigs"
+  },
+  "postUrl": "https://x.com/debugsenpai/status/2119433098446455123",
+  "createdAt": "2026-11-08T14:13:22.000Z",
+  "durationMs": 15348,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119433098446455123/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119433098446455123/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119433098446455123"
  }
 ]

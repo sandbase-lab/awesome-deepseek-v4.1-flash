@@ -2,13 +2,13 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-43 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+44 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
 - [3D scenes](#3d-scene) (15)
 - [Motion graphics](#motion-graphics) (1)
-- [Games](#game) (7)
+- [Games](#game) (8)
 - [Launch films](#launch-film) (2)
 - [Tests & comparisons](#comparison) (18)
 
@@ -561,6 +561,16 @@ Nanbeige4.3-33B お試し
 
 VRAM 要求がでかすぎるし、ビジョンも無いし
 余程の使い道が無い限り Qwen3.8 FN とか Deepseek 1017 でいいやってなるね
+```
+
+### Diablo 3 style video game in Blender
+
+[@Samking207](https://x.com/Samking207/status/2119193705064325574) · 2:24 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119193705064325574/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119193705064325574?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Created with @deepseek_ai  V4.1-Flash-1017, DSH + Blender. Prompt was super basic, just create a Diablo 3 style video game using my Blender MCP. 
+
+@teortaxesTex @tianyi @ivanfioravanti
 ```
 
 <a id="launch-film"></a>
