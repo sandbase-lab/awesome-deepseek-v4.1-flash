@@ -5334,5 +5334,23 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119433098446455123/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119433098446455123"
+ },
+ {
+  "id": "2119847127585321292",
+  "title": "Frog animation generated with local DeepSeek model",
+  "title_zh": "本地DeepSeek模型生成的青蛙动画",
+  "category": "comparison",
+  "author": {
+   "handle": "axitek",
+   "name": "Axitek"
+  },
+  "postUrl": "https://x.com/axitek/status/2119847127585321292",
+  "createdAt": "2026-11-09T17:38:34.000Z",
+  "durationMs": 30000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119847127585321292/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119847127585321292/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119847127585321292"
  }
 ]
