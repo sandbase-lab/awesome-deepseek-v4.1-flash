@@ -5352,5 +5352,41 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2119847127585321292/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2119847127585321292"
+ },
+ {
+  "id": "2120007187808534965",
+  "title": "Comparison between Fable-5.2 and DeepSeek-V4.1",
+  "title_zh": "Fable-5.2与DeepSeek-V4.1生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "karminski3",
+   "name": "karminski-牙医"
+  },
+  "postUrl": "https://x.com/karminski3/status/2120007187808534965",
+  "createdAt": "2026-11-10T04:14:36.000Z",
+  "durationMs": 60441,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120007187808534965/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120007187808534965/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2120007187808534965"
+ },
+ {
+  "id": "2120258900544860495",
+  "title": "Multi-model coding workflow and physics simulation benchmark",
+  "title_zh": "多模型代码工作流与物理模拟评测对比",
+  "category": "comparison",
+  "author": {
+   "handle": "AlicanKiraz0",
+   "name": "Alican Kiraz"
+  },
+  "postUrl": "https://x.com/AlicanKiraz0/status/2120258900544860495",
+  "createdAt": "2026-11-10T20:54:49.000Z",
+  "durationMs": 59516,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120258900544860495/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120258900544860495/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2120258900544860495"
  }
 ]
