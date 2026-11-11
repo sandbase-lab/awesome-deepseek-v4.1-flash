@@ -783,24 +783,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111456771533611064"
  },
  {
-  "id": "2111459465472176150",
-  "title": "Three.js tour of a gauntlet rig",
-  "title_zh": "Three.js漫游展示测试平台",
-  "category": "3d-scene",
-  "author": {
-   "handle": "wikiwayne",
-   "name": "Wayne Lowry"
-  },
-  "postUrl": "https://x.com/wikiwayne/status/2111459465472176150",
-  "createdAt": "2026-10-17T14:09:00.000Z",
-  "durationMs": 25733,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111459465472176150/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111459465472176150/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111459465472176150"
- },
- {
   "id": "2111460614656913914",
   "title": "Pelican riding a bicycle drawn in SVG",
   "title_zh": "SVG 绘制的鹈鹕骑车动画",
@@ -1380,24 +1362,6 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111533791084941417/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111533791084941417"
- },
- {
-  "id": "2111534337435062671",
-  "title": "3D island scene in Three.js",
-  "title_zh": "Three.js生成的3D海岛场景对比",
-  "category": "comparison",
-  "author": {
-   "handle": "YxzRainy",
-   "name": "兴雨"
-  },
-  "postUrl": "https://x.com/YxzRainy/status/2111534337435062671",
-  "createdAt": "2026-10-17T19:06:31.000Z",
-  "durationMs": 96988,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111534337435062671/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111534337435062671/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111534337435062671"
  },
  {
   "id": "2111538273797771729",
@@ -5388,5 +5352,59 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120258900544860495/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2120258900544860495"
+ },
+ {
+  "id": "2120488420510503315",
+  "title": "3D car driving off a cliff comparison",
+  "title_zh": "3D 赛车飞越悬崖模型生成对比",
+  "category": "comparison",
+  "author": {
+   "handle": "YxzRainy",
+   "name": "兴雨"
+  },
+  "postUrl": "https://x.com/YxzRainy/status/2120488420510503315",
+  "createdAt": "2026-11-11T12:06:50.000Z",
+  "durationMs": 41817,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120488420510503315/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120488420510503315/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2120488420510503315"
+ },
+ {
+  "id": "2120542843081297965",
+  "title": "Qwen4-Max-Preview versus DeepSeek V4.1 running Rooster Run",
+  "title_zh": "Qwen4-Max 与 DeepSeek V4.1 公鸡快跑对比",
+  "category": "comparison",
+  "author": {
+   "handle": "Bhavani_00007",
+   "name": "Bhavy☄️"
+  },
+  "postUrl": "https://x.com/Bhavani_00007/status/2120542843081297965",
+  "createdAt": "2026-11-11T15:43:06.000Z",
+  "durationMs": 22000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120542843081297965/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120542843081297965/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2120542843081297965"
+ },
+ {
+  "id": "2120562198481138173",
+  "title": "Photo to stroke by stroke painting app comparison",
+  "title_zh": "三款模型生成照片转逐笔绘画应用对比",
+  "category": "comparison",
+  "author": {
+   "handle": "wikiwayne",
+   "name": "Wayne Lowry"
+  },
+  "postUrl": "https://x.com/wikiwayne/status/2120562198481138173",
+  "createdAt": "2026-11-11T17:00:00.000Z",
+  "durationMs": 73566,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120562198481138173/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2120562198481138173/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2120562198481138173"
  }
 ]
