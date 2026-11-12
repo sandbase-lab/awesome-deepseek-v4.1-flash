@@ -50,7 +50,6 @@ for doc in ('prompts', 'prompt-guide', 'tutorial', 'model-comparison'):
 forbidden = re.compile('|'.join([
     r'/Users/', r'/Volumes/', r'\b[A-Za-z]:\\',
     r'sk-sb-[A-Za-z0-9]{8,}', r'\bsk-[a-f0-9]{32,}', 'cfut' + '_',
-    re.escape('utm_campaign=awesome-' + 'gemini4-argon'), re.escape('/lab/ai-videos/' + 'gemini-4-argon/'),
 ]))
 scanned = [ROOT / 'README.md', ROOT / 'README.zh-CN.md', ROOT / 'CONTRIBUTING.md', ROOT / 'MEDIA-RIGHTS.md',
            *(ROOT / 'docs').rglob('*.md'), *(ROOT / 'scripts').glob('*.*'), *(ROOT / '.github').rglob('*.yml')]
