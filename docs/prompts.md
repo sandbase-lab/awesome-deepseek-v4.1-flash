@@ -2,7 +2,7 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-44 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+45 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
@@ -10,7 +10,7 @@ Each entry quotes the creator's post as published on X, where the prompt is shar
 - [Motion graphics](#motion-graphics) (1)
 - [Games](#game) (8)
 - [Launch films](#launch-film) (2)
-- [Tests & comparisons](#comparison) (18)
+- [Tests & comparisons](#comparison) (19)
 
 <a id="3d-scene"></a>
 
@@ -996,4 +996,20 @@ Does using a blender make a big difference?
 For comparison, also the GPT-6.1 Sol vs DeepSeek v4.1 Flash 1017 version procedurally in three.js
 
 The same prompt in replies:
+```
+
+### A playable Three.js ocean simulation model comparison
+
+[@skytearss](https://x.com/skytearss/status/2121443557127188489) · 0:18 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121443557127188489/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121443557127188489?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+开测！DeepSeek V4.1-Flash-1017 vs Astra vs Opus 5.5。
+
+三款模型，同一条提示词：用单文件 Three.js r128 做一个能玩的热带浅海《Ocean Shallows》。
+
+海浪要能冲上沙滩，卷起一圈蕾丝状泡沫，退潮后留下一层湿沙。五种鳐鱼和水母都要用真实的 3D 模型，能从卡片上拖进海里。蝠鲼会跃出水面翻身，黄貂鱼受惊会扬起泥沙，水母会被漩涡卷走。
+
+最想看的是这三个细节：拖一只水母悬在半空，触手会不会垂下来滴水？鳐鱼入水的瞬间，水花和涟漪能不能对上？手机上放满 48 只生物，还能不能流畅地玩？
+
+你押谁？
 ```

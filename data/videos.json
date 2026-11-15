@@ -250,7 +250,7 @@
   "durationMs": 24000,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111411889217651196/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111411889217651196/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111411889217651196"
  },
@@ -833,7 +833,7 @@
   "durationMs": 34760,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111464046113493422/video.mp4",
   "promptShared": false,
-  "featured": 4,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111464046113493422/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111464046113493422"
  },
@@ -3828,24 +3828,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113623569691517105"
  },
  {
-  "id": "2113660518439456831",
-  "title": "Interactive 3D drone generated in one turn",
-  "title_zh": "单轮生成的可交互3D无人机",
-  "category": "3d-scene",
-  "author": {
-   "handle": "YxzRainy",
-   "name": "兴雨"
-  },
-  "postUrl": "https://x.com/YxzRainy/status/2113660518439456831",
-  "createdAt": "2026-10-23T15:55:12.000Z",
-  "durationMs": 20873,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113660518439456831/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2113660518439456831/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2113660518439456831"
- },
- {
   "id": "2113698217560862949",
   "title": "Steampunk voxel airship dock generated in 3D",
   "title_zh": "AI 生成的蒸汽朋克体素飞艇码头",
@@ -4366,7 +4348,7 @@
   "durationMs": 21035,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115035083694555148/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": 4,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115035083694555148/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115035083694555148"
  },
@@ -5442,5 +5424,78 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121048325789192483/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121048325789192483"
+ },
+ {
+  "id": "2121443557127188489",
+  "title": "A playable Three.js ocean simulation model comparison",
+  "title_zh": "三款模型制作 Three.js 热带浅海对比测试",
+  "category": "comparison",
+  "author": {
+   "handle": "skytearss",
+   "name": "山映初阳"
+  },
+  "postUrl": "https://x.com/skytearss/status/2121443557127188489",
+  "createdAt": "2026-11-14T03:22:13.000Z",
+  "durationMs": 17966,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121443557127188489/video.mp4",
+  "promptShared": true,
+  "promptText": "开测！DeepSeek V4.1-Flash-1017 vs Astra vs Opus 5.5。\n\n三款模型，同一条提示词：用单文件 Three.js r128 做一个能玩的热带浅海《Ocean Shallows》。\n\n海浪要能冲上沙滩，卷起一圈蕾丝状泡沫，退潮后留下一层湿沙。五种鳐鱼和水母都要用真实的 3D 模型，能从卡片上拖进海里。蝠鲼会跃出水面翻身，黄貂鱼受惊会扬起泥沙，水母会被漩涡卷走。\n\n最想看的是这三个细节：拖一只水母悬在半空，触手会不会垂下来滴水？鳐鱼入水的瞬间，水花和涟漪能不能对上？手机上放满 48 只生物，还能不能流畅地玩？\n\n你押谁？",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121443557127188489/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121443557127188489"
+ },
+ {
+  "id": "2121551796766376081",
+  "title": "A 3D star core temple model comparison",
+  "title_zh": "多模型 3D 星核圣殿生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "YxzRainy",
+   "name": "兴雨"
+  },
+  "postUrl": "https://x.com/YxzRainy/status/2121551796766376081",
+  "createdAt": "2026-11-14T10:32:19.000Z",
+  "durationMs": 30300,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121551796766376081/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121551796766376081/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121551796766376081"
+ },
+ {
+  "id": "2121618449713770994",
+  "title": "A test result from DeepSeek V4.1 Flash",
+  "title_zh": "DeepSeek V4.1 Flash 1017 测试结果",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "MiaAI_lab",
+   "name": "Mia"
+  },
+  "postUrl": "https://x.com/MiaAI_lab/status/2121618449713770994",
+  "createdAt": "2026-11-14T14:57:10.000Z",
+  "durationMs": 36000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121618449713770994/video.mp4",
+  "promptShared": false,
+  "featured": 2,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121618449713770994/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121618449713770994"
+ },
+ {
+  "id": "2121682967512883246",
+  "title": "A demonstration of a Parallels VM escape",
+  "title_zh": "Parallels 虚拟机逃逸演示",
+  "category": "ui-demo",
+  "author": {
+   "handle": "CrackmesOne",
+   "name": "Crackmes.one"
+  },
+  "postUrl": "https://x.com/CrackmesOne/status/2121682967512883246",
+  "createdAt": "2026-11-14T19:13:33.000Z",
+  "durationMs": 22708,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121682967512883246/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121682967512883246/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121682967512883246"
  }
 ]

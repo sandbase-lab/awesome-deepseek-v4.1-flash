@@ -2,7 +2,7 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 44 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 45 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
@@ -10,7 +10,7 @@
 - [动效](#motion-graphics) (1)
 - [游戏](#game) (8)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (18)
+- [测试对比](#comparison) (19)
 
 <a id="3d-scene"></a>
 
@@ -996,4 +996,20 @@ Does using a blender make a big difference?
 For comparison, also the GPT-6.1 Sol vs DeepSeek v4.1 Flash 1017 version procedurally in three.js
 
 The same prompt in replies:
+```
+
+### 三款模型制作 Three.js 热带浅海对比测试
+
+[@skytearss](https://x.com/skytearss/status/2121443557127188489) · 0:18 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121443557127188489/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121443557127188489?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+开测！DeepSeek V4.1-Flash-1017 vs Astra vs Opus 5.5。
+
+三款模型，同一条提示词：用单文件 Three.js r128 做一个能玩的热带浅海《Ocean Shallows》。
+
+海浪要能冲上沙滩，卷起一圈蕾丝状泡沫，退潮后留下一层湿沙。五种鳐鱼和水母都要用真实的 3D 模型，能从卡片上拖进海里。蝠鲼会跃出水面翻身，黄貂鱼受惊会扬起泥沙，水母会被漩涡卷走。
+
+最想看的是这三个细节：拖一只水母悬在半空，触手会不会垂下来滴水？鳐鱼入水的瞬间，水花和涟漪能不能对上？手机上放满 48 只生物，还能不能流畅地玩？
+
+你押谁？
 ```
