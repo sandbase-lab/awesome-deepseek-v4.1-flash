@@ -613,7 +613,7 @@
   "durationMs": 67433,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111442747999789204/video.mp4",
   "promptShared": false,
-  "featured": 1,
+  "featured": 2,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111442747999789204/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111442747999789204"
  },
@@ -5476,7 +5476,7 @@
   "durationMs": 36000,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121618449713770994/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 1,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121618449713770994/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121618449713770994"
  },
@@ -5497,5 +5497,59 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121682967512883246/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121682967512883246"
+ },
+ {
+  "id": "2121804732906061966",
+  "title": "Star Core Sanctuary 3D speed test comparison",
+  "title_zh": "Star Core Sanctuary 3D 渲染速度对比测试",
+  "category": "comparison",
+  "author": {
+   "handle": "Charlieee2026",
+   "name": "Charlie"
+  },
+  "postUrl": "https://x.com/Charlieee2026/status/2121804732906061966",
+  "createdAt": "2026-11-15T03:17:24.000Z",
+  "durationMs": 30348,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121804732906061966/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121804732906061966/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121804732906061966"
+ },
+ {
+  "id": "2121835917522723094",
+  "title": "Video created with DeepSeek-V4.1 Flash 1017",
+  "title_zh": "使用 DeepSeek-V4.1 Flash 1017 制作的视频",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "woleswoosh",
+   "name": "FEY8ER"
+  },
+  "postUrl": "https://x.com/woleswoosh/status/2121835917522723094",
+  "createdAt": "2026-11-15T05:21:19.000Z",
+  "durationMs": 16000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121835917522723094/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121835917522723094/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121835917522723094"
+ },
+ {
+  "id": "2122029835849523504",
+  "title": "Three.js forest lighting comparison across three models",
+  "title_zh": "三款模型生成的 Three.js 森林光影对比",
+  "category": "comparison",
+  "author": {
+   "handle": "superalesha",
+   "name": "Alexey Fateev"
+  },
+  "postUrl": "https://x.com/superalesha/status/2122029835849523504",
+  "createdAt": "2026-11-15T18:11:52.000Z",
+  "durationMs": 90000,
+  "mp4": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122029835849523504/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122029835849523504/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122029835849523504"
  }
 ]
