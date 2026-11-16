@@ -5463,6 +5463,24 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121551796766376081"
  },
  {
+  "id": "2121587078970720516",
+  "title": "A 3D star core temple challenge comparison",
+  "title_zh": "3D恒星核心神殿挑战的横向性能对比",
+  "category": "comparison",
+  "author": {
+   "handle": "BadEarsX",
+   "name": "BadEars"
+  },
+  "postUrl": "https://x.com/BadEarsX/status/2121587078970720516",
+  "createdAt": "2026-11-14T12:52:31.000Z",
+  "durationMs": 30348,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121587078970720516/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121587078970720516/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2121587078970720516"
+ },
+ {
   "id": "2121618449713770994",
   "title": "A test result from DeepSeek V4.1 Flash",
   "title_zh": "DeepSeek V4.1 Flash 1017 测试结果",
@@ -5504,10 +5522,10 @@
   "title_zh": "Star Core Sanctuary 3D 渲染速度对比测试",
   "category": "comparison",
   "author": {
-   "handle": "Charlieee2026",
-   "name": "Charlie"
+   "handle": "lexstorm101",
+   "name": "Lex Storm"
   },
-  "postUrl": "https://x.com/Charlieee2026/status/2121804732906061966",
+  "postUrl": "https://x.com/lexstorm101/status/2121804732906061966",
   "createdAt": "2026-11-15T03:17:24.000Z",
   "durationMs": 30348,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2121804732906061966/video.mp4",
@@ -5551,5 +5569,60 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122029835849523504/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122029835849523504"
+ },
+ {
+  "id": "2122173567563608166",
+  "title": "Interactive UI design options for chat panel",
+  "title_zh": "聊天面板的交互式界面设计选项展示",
+  "category": "ui-demo",
+  "author": {
+   "handle": "realWeZZard",
+   "name": "WeZZard"
+  },
+  "postUrl": "https://x.com/realWeZZard/status/2122173567563608166",
+  "createdAt": "2026-11-16T03:43:01.000Z",
+  "durationMs": 86338,
+  "mp4": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122173567563608166/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/kimi-k3-1/2122173567563608166/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122173567563608166"
+ },
+ {
+  "id": "2122197254924800485",
+  "title": "Interactive 3D observatory model built by AI",
+  "title_zh": "由AI构建的交互式3D亚历山大天文仪",
+  "category": "comparison",
+  "author": {
+   "handle": "sakatayasha",
+   "name": "Sakata"
+  },
+  "postUrl": "https://x.com/sakatayasha/status/2122197254924800485",
+  "createdAt": "2026-11-16T05:17:08.000Z",
+  "durationMs": 40495,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2122197254924800485/video.mp4",
+  "promptShared": true,
+  "promptText": "Hy4 vs DeepSeek V4.1 Flash 1017\n\ntested both sith same prompt: to build “The Orrery of Alexandria” a photorealistic, interactive 3D observatory in one HTML file, with 12 working systems.\n\n> Hy4 took 47 minutes to finish everything\n> DeepSeek V4.1 Flash took 39 minutes\n\nDeepSeek finished 8 minutes sooner, but Hy4 delivered the stronger overall build\n\nWhere Hy4 pulled ahead:\n\n- Better visual quality and atmosphere\n- More polished lighting, materials and scene composition\n- More convincing interactions\n- Better handling of a long, detailed brief without losing the overall experience\n\nThat’s what impressed me about Hy4, not just generating code, but turning a complex creative brief into something cohesive and polished\n\ntested through https://t.co/TbiyKOrnuz with @WorkBuddy_AI, using Hy4 from @TencentHunyuan\n\nwhat do you think?",
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2122197254924800485/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122197254924800485"
+ },
+ {
+  "id": "2122289558117327113",
+  "title": "A voxel demo created with Hy4 Flash",
+  "title_zh": "使用Hy4 Flash模型生成的体素演示",
+  "category": "comparison",
+  "author": {
+   "handle": "dee_naliaks",
+   "name": "Doreen"
+  },
+  "postUrl": "https://x.com/dee_naliaks/status/2122289558117327113",
+  "createdAt": "2026-11-16T11:23:55.000Z",
+  "durationMs": 17866,
+  "mp4": "https://www.sandbase.ai/lab/media/x/hy4-flash/2122289558117327113/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/hy4-flash/2122289558117327113/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122289558117327113"
  }
 ]

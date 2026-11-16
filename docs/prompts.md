@@ -2,7 +2,7 @@
 
 English · [简体中文](zh-CN/prompts.md) · [← Back to the collection](../README.md)
 
-45 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
+46 DeepSeek V4.1 Flash 1017 videos whose creators shared the prompt. Open one to read the prompt, watch the video and **Recreate** it with V4.1 Flash on SandBase Lab. New to prompting V4.1 Flash? Start with the [prompt guide](prompt-guide.md).
 
 Each entry quotes the creator's post as published on X, where the prompt is shared. Some creators put the full prompt in a reply: open the post on X to read the thread. Posts keep the creator's language.
 
@@ -10,7 +10,7 @@ Each entry quotes the creator's post as published on X, where the prompt is shar
 - [Motion graphics](#motion-graphics) (1)
 - [Games](#game) (8)
 - [Launch films](#launch-film) (2)
-- [Tests & comparisons](#comparison) (19)
+- [Tests & comparisons](#comparison) (20)
 
 <a id="3d-scene"></a>
 
@@ -1012,4 +1012,32 @@ The same prompt in replies:
 最想看的是这三个细节：拖一只水母悬在半空，触手会不会垂下来滴水？鳐鱼入水的瞬间，水花和涟漪能不能对上？手机上放满 48 只生物，还能不能流畅地玩？
 
 你押谁？
+```
+
+### Interactive 3D observatory model built by AI
+
+[@sakatayasha](https://x.com/sakatayasha/status/2122197254924800485) · 0:40 · [Watch](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2122197254924800485/video.mp4) · [Recreate on SandBase Lab](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122197254924800485?utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Hy4 vs DeepSeek V4.1 Flash 1017
+
+tested both sith same prompt: to build “The Orrery of Alexandria” a photorealistic, interactive 3D observatory in one HTML file, with 12 working systems.
+
+> Hy4 took 47 minutes to finish everything
+> DeepSeek V4.1 Flash took 39 minutes
+
+DeepSeek finished 8 minutes sooner, but Hy4 delivered the stronger overall build
+
+Where Hy4 pulled ahead:
+
+- Better visual quality and atmosphere
+- More polished lighting, materials and scene composition
+- More convincing interactions
+- Better handling of a long, detailed brief without losing the overall experience
+
+That’s what impressed me about Hy4, not just generating code, but turning a complex creative brief into something cohesive and polished
+
+tested through https://t.co/TbiyKOrnuz with @WorkBuddy_AI, using Hy4 from @TencentHunyuan
+
+what do you think?
 ```

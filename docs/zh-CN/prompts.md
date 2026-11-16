@@ -2,7 +2,7 @@
 
 [English](../prompts.md) · 简体中文 · [← 返回合集](../../README.zh-CN.md)
 
-共 45 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
+共 46 条 DeepSeek V4.1 Flash 1017 视频，作者公开了提示词。打开即可查看提示词、观看视频，并在 SandBase Lab 上用 V4.1 Flash 一键 **复刻**。第一次写 V4.1 Flash 提示词？先看 [提示词写法](prompt-guide.md)。
 
 每条都按 X 上发布的原文引用作者帖子，提示词就在其中；部分作者把完整提示词放在回复里，请打开 X 原帖查看讨论串。帖子原文保留作者语言。
 
@@ -10,7 +10,7 @@
 - [动效](#motion-graphics) (1)
 - [游戏](#game) (8)
 - [发布片](#launch-film) (2)
-- [测试对比](#comparison) (19)
+- [测试对比](#comparison) (20)
 
 <a id="3d-scene"></a>
 
@@ -1012,4 +1012,32 @@ The same prompt in replies:
 最想看的是这三个细节：拖一只水母悬在半空，触手会不会垂下来滴水？鳐鱼入水的瞬间，水花和涟漪能不能对上？手机上放满 48 只生物，还能不能流畅地玩？
 
 你押谁？
+```
+
+### 由AI构建的交互式3D亚历山大天文仪
+
+[@sakatayasha](https://x.com/sakatayasha/status/2122197254924800485) · 0:40 · [观看](https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2122197254924800485/video.mp4) · [在 SandBase Lab 复刻](https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122197254924800485?lang=zh-CN&utm_source=github&utm_medium=docs&utm_campaign=awesome-deepseek-v4.1-flash-1017&utm_content=prompt-index)
+
+```text
+Hy4 vs DeepSeek V4.1 Flash 1017
+
+tested both sith same prompt: to build “The Orrery of Alexandria” a photorealistic, interactive 3D observatory in one HTML file, with 12 working systems.
+
+> Hy4 took 47 minutes to finish everything
+> DeepSeek V4.1 Flash took 39 minutes
+
+DeepSeek finished 8 minutes sooner, but Hy4 delivered the stronger overall build
+
+Where Hy4 pulled ahead:
+
+- Better visual quality and atmosphere
+- More polished lighting, materials and scene composition
+- More convincing interactions
+- Better handling of a long, detailed brief without losing the overall experience
+
+That’s what impressed me about Hy4, not just generating code, but turning a complex creative brief into something cohesive and polished
+
+tested through https://t.co/TbiyKOrnuz with @WorkBuddy_AI, using Hy4 from @TencentHunyuan
+
+what do you think?
 ```
