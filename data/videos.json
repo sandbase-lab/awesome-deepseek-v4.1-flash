@@ -250,7 +250,7 @@
   "durationMs": 24000,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111411889217651196/video.mp4",
   "promptShared": false,
-  "featured": 3,
+  "featured": 4,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111411889217651196/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111411889217651196"
  },
@@ -304,7 +304,7 @@
   "durationMs": 150464,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111416511932117424/video.mp4",
   "promptShared": false,
-  "featured": 5,
+  "featured": 6,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111416511932117424/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111416511932117424"
  },
@@ -613,7 +613,7 @@
   "durationMs": 67433,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111442747999789204/video.mp4",
   "promptShared": false,
-  "featured": 2,
+  "featured": 3,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2111442747999789204/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2111442747999789204"
  },
@@ -3099,7 +3099,7 @@
   "durationMs": 48000,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112464983002906928/video.mp4",
   "promptShared": false,
-  "featured": 7,
+  "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2112464983002906928/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2112464983002906928"
  },
@@ -4167,7 +4167,7 @@
   "durationMs": 85100,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114364317089034693/video.mp4",
   "promptShared": false,
-  "featured": 6,
+  "featured": 7,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2114364317089034693/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2114364317089034693"
  },
@@ -4330,7 +4330,7 @@
   "durationMs": 21035,
   "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115035083694555148/video.mp4",
   "promptShared": false,
-  "featured": 4,
+  "featured": 5,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2115035083694555148/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2115035083694555148"
  },
@@ -6002,5 +6002,77 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125239988623200754/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125239988623200754"
+ },
+ {
+  "id": "2125445109126955266",
+  "title": "DeepSeek model benchmark on multiple GPU cards",
+  "title_zh": "在多张 GPU 卡上测试 DeepSeek 模型",
+  "category": "ui-demo",
+  "author": {
+   "handle": "codebrandes",
+   "name": "Alex Brandes"
+  },
+  "postUrl": "https://x.com/codebrandes/status/2125445109126955266",
+  "createdAt": "2026-11-25T04:22:57.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125445109126955266/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125445109126955266/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125445109126955266"
+ },
+ {
+  "id": "2125447395307835571",
+  "title": "Mini game created using artificial intelligence",
+  "title_zh": "使用人工智能制作的迷你游戏",
+  "category": "game",
+  "author": {
+   "handle": "Ciri_ai",
+   "name": "Ciri"
+  },
+  "postUrl": "https://x.com/Ciri_ai/status/2125447395307835571",
+  "createdAt": "2026-11-25T04:32:02.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125447395307835571/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125447395307835571/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125447395307835571"
+ },
+ {
+  "id": "2125482861033824410",
+  "title": "Terminal file finder with quick look",
+  "title_zh": "具备快速预览的终端文件管理器",
+  "category": "ui-demo",
+  "author": {
+   "handle": "rauchg",
+   "name": "Guillermo Rauch"
+  },
+  "postUrl": "https://x.com/rauchg/status/2125482861033824410",
+  "createdAt": "2026-11-25T06:52:58.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125482861033824410/video.mp4",
+  "promptShared": false,
+  "featured": 2,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125482861033824410/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125482861033824410"
+ },
+ {
+  "id": "2125556108517654666",
+  "title": "Benchmark comparison of Inkling 2 Mini and DeepSeek",
+  "title_zh": "Inkling 2 Mini 与 DeepSeek 的基准对比",
+  "category": "comparison",
+  "author": {
+   "handle": "yume_arasaki",
+   "name": "Yume_X"
+  },
+  "postUrl": "https://x.com/yume_arasaki/status/2125556108517654666",
+  "createdAt": "2026-11-25T11:44:01.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125556108517654666/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125556108517654666/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125556108517654666"
  }
 ]
