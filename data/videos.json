@@ -5680,24 +5680,6 @@
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122644820711645328"
  },
  {
-  "id": "2122684074787778616",
-  "title": "Hy4 Flash vs DeepSeek V4.1 Flash Comparison",
-  "title_zh": "Hy4 Flash与DeepSeek V4.1 Flash生成对比",
-  "category": "comparison",
-  "author": {
-   "handle": "notjazii",
-   "name": "J A Z I I"
-  },
-  "postUrl": "https://x.com/notjazii/status/2122684074787778616",
-  "createdAt": "2026-11-17T13:31:35.000Z",
-  "durationMs": null,
-  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2122684074787778616/video.mp4",
-  "promptShared": false,
-  "featured": null,
-  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2122684074787778616/poster.jpg",
-  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2122684074787778616"
- },
- {
   "id": "2122831665105924288",
   "title": "Output comparison of two models using same prompt",
   "title_zh": "相同提示词下两款模型的生成对比",
@@ -6074,6 +6056,24 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125556108517654666/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125556108517654666"
+ },
+ {
+  "id": "2125604993919287758",
+  "title": "Performance comparison between swe2.1 and DeepSeek",
+  "title_zh": "swe2.1 与 DeepSeek 的性能对比",
+  "category": "comparison",
+  "author": {
+   "handle": "notjazii",
+   "name": "J A Z I I"
+  },
+  "postUrl": "https://x.com/notjazii/status/2125604993919287758",
+  "createdAt": "2026-11-25T14:58:17.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125604993919287758/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125604993919287758/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125604993919287758"
  },
  {
   "id": "2125696845443731539",
