@@ -6074,5 +6074,23 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2125556108517654666/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125556108517654666"
+ },
+ {
+  "id": "2125696845443731539",
+  "title": "Comparison of tokenizer behavior across AI models",
+  "title_zh": "不同AI模型的词法分析器行为对比",
+  "category": "comparison",
+  "author": {
+   "handle": "VRAMCalculator",
+   "name": "VRAMCalculator"
+  },
+  "postUrl": "https://x.com/VRAMCalculator/status/2125696845443731539",
+  "createdAt": "2026-11-25T21:03:16.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/glm-5-4/2125696845443731539/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/glm-5-4/2125696845443731539/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125696845443731539"
  }
 ]
