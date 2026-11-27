@@ -6092,5 +6092,41 @@
   "featured": null,
   "poster": "https://www.sandbase.ai/lab/media/x/glm-5-4/2125696845443731539/poster.jpg",
   "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2125696845443731539"
+ },
+ {
+  "id": "2126213912332751124",
+  "title": "ASCII animation of a blinking eye and wings",
+  "title_zh": "眨眼与展翅的ASCII字符动画",
+  "category": "motion-graphics",
+  "author": {
+   "handle": "offsitedark",
+   "name": "offsite"
+  },
+  "postUrl": "https://x.com/offsitedark/status/2126213912332751124",
+  "createdAt": "2026-11-27T07:17:54.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2126213912332751124/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2126213912332751124/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2126213912332751124"
+ },
+ {
+  "id": "2126366179141009410",
+  "title": "Rocket launch scene model comparison",
+  "title_zh": "火箭发射场景模型生成效果对比",
+  "category": "comparison",
+  "author": {
+   "handle": "yashmp2004",
+   "name": "yash.jsx"
+  },
+  "postUrl": "https://x.com/yashmp2004/status/2126366179141009410",
+  "createdAt": "2026-11-27T17:22:57.000Z",
+  "durationMs": null,
+  "mp4": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2126366179141009410/video.mp4",
+  "promptShared": false,
+  "featured": null,
+  "poster": "https://www.sandbase.ai/lab/media/x/deepseek-v4-1-flash-1017/2126366179141009410/poster.jpg",
+  "labUrl": "https://www.sandbase.ai/lab/ai-videos/deepseek-v4-1-flash-1017/2126366179141009410"
  }
 ]
